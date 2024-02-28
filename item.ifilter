@@ -542,6 +542,5 @@ ItemDisplay[EQ7 ETH !UNI !ID]: // 刪除無形頭冠
 ItemDisplay[(WEAPON OR EQ1 OR EQ2 OR EQ3 OR CL3 OR CL4 OR CL6 OR CL7) !CL5 !WP6 !amb !am5 !ama !amf DIFF=2 RARE !ID CLVL>79]: // 地獄難度80等後刪除標槍、爪子、女族長之弓以外武器、頭、衣服、盾牌金裝
 ItemDisplay[(EQ4 OR EQ5 OR EQ6 OR EQ7 OR CL1 OR CL2) ETH DIFF=2 RARE !ID CLVL>79]: // 地獄難度80等後刪除手套、鞋子、腰帶、頭冠金裝(無形)
 
-
-
+ItemDisplay[box]: %TAN% %NAME%
 
