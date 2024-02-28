@@ -39,29 +39,26 @@ ItemDisplay[cx8]: %WHITE%※※%DGREEN%%NAME%%WHITE%※※ //附魔寶珠
 
 // 遺物地圖(Relic)
 ItemDisplay[ma10 !ID]: 『%NAME% - T1』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //寒霜洞窟 (Icy Cavern)
-ItemDisplay[ma2 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //褻瀆教堂 (Desecrated Temple)
 ItemDisplay[ma5 !ID]: 『%NAME% - T1』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //焚燒森林 (Burnt Forest)
+ItemDisplay[ma4 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //褻瀆教堂 (Desecrated Temple)
 ItemDisplay[ma8 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //發霉地穴 (Musty Crypt)
 ItemDisplay[ma9 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //昏暗地窖 (Dim Cellar)
-// ItemDisplay[ma10 !ID]: <T0>『%NAME%』%GRAY%(未鑑定)%YELLOW% //悅心農場 (Pleasant Pasture) BUG無法顯示
+ItemDisplay[ma2 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma6 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //焚燒森林 (Burnt Forest)
+ItemDisplay[ma3 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //遺棄之地 (Abandoned Precinct)
+//ItemDisplay[ma10 !ID]: <T0>『%NAME%』%GRAY%(未鑑定)%YELLOW% //悅心農場 (Pleasant Pasture) BUG無法顯示
 
-ItemDisplay[ma10]: %WHITE%『%NAME%』 //寒霜洞窟 (Icy Cavern)
-ItemDisplay[ma5]: %WHITE%『%NAME%』 //凜冬高原 (Frigid Plateau)
-
+ItemDisplay[ma10]: %YELLOW%『%NAME%』 //寒霜洞窟 (Icy Cavern)
+ItemDisplay[ma5]:  %YELLOW%『%NAME%』 //凜冬高原 (Frigid Plateau)
 ItemDisplay[ma4]:  %YELLOW%『%NAME%』 //褻瀆教堂 (Desecrated Temple)
 ItemDisplay[ma8]:  %YELLOW%『%NAME%』 //發霉地穴 (Musty Crypt)
 ItemDisplay[ma9]:  %YELLOW%『%NAME%』 //昏暗地窖 (Dim Cellar)
-
 ItemDisplay[ma2]:  %RED%『%NAME%』 //蜃景荒漠 (Forgotten Desert)
 ItemDisplay[ma6]:  %RED%『%NAME%』 //崩壞堡壘 (Ruined Citadel)
 ItemDisplay[ma7]:  %RED%『%NAME%』 //焚燒森林 (Burnt Forest)
-
 //ItemDisplay[ma10]: 『%NAME%』//悅心農場 (Pleasant Pasture) BUG無法顯示
-//ItemDisplay[ma3]: 『%NAME%』 //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma3]: 『%NAME%』 //遺棄之地 (Abandoned Precinct)
 ItemDisplay[maz]: 毀滅 -『%NAME%』 //地獄審判
 
 // 根據玩家等級隱藏金錢顯示
