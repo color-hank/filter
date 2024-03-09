@@ -127,8 +127,10 @@ ItemDisplay[cm2 UNI !ID]: (煉獄火炬)《%NAME%【暗金】》
 ItemDisplay[cm3 UNI !ID]: (基德的運氣)《%NAME%【暗金】》
 ItemDisplay[(cm1 OR cm2 OR cm3) UNI]: 《%NAME%【暗金】》
 ItemDisplay[cm3 ILVL>90]: 《《《%ORANGE%[L%ILVL%]%BLUE%%NAME%》》》{%YELLOW%可洗出技能＋45生命%NL%%ORANGE%完美任意寶石x3＋大型護身符＝隨機新屬性} // 91LV 技能+45命
+ItemDisplay[cm1 !ID]: %PURPLE%《[L%ILVL%]%NAME%》
 ItemDisplay[cm1]: 《[L%ILVL%]%NAME%》
 ItemDisplay[cm2]: 《《[L%ILVL%]%NAME%》》
+ItemDisplay[cm3 !ID]: %PURPLE%《《《[L%ILVL%]%NAME%》》》
 ItemDisplay[cm3]: 《《《[L%ILVL%]%NAME%》》》
 
 ItemDisplay[cm2 UNI ID CLSK0>0]: %NAME% {%YELLOW%硬直恢復(FHR)：(11F)0／6／13／20／32／52／86／174／600(3F)%NL%施法速度(FCR)：(19F)0／7／14／22／32／48／68／99／152(13F)}
