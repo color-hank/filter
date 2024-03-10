@@ -92,7 +92,7 @@ ItemDisplay[(hp3 OR mp3) CLVL>39]:
 ItemDisplay[(hp2 OR mp2) CLVL>24]:
 ItemDisplay[(hp1 OR mp1) CLVL>14]:
 
-ItemDisplay[rvl]: %PURPLE%[[%WHITE%R%PURPLE%]]%WHITE%
+ItemDisplay[rvl]: %BORDER(8,2)%%NL%%PURPLE%[[%WHITE%   R   %PURPLE%]]%NL%%WHITE%
 ItemDisplay[rvs]: %PURPLE%[%GRAY%R%PURPLE%]%WHITE%%CONTINUE%
 // ItemDisplay[rvs CLVL>69]:
 
