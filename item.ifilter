@@ -118,7 +118,7 @@ ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: // 碎裂
 
 
 // 珠寶
-ItemDisplay[jew UNI]: ●%NAME%【暗金】●
+ItemDisplay[jew UNI]: ●%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%【暗金】●
 ItemDisplay[jew]: ●[L%ILVL%]%NAME%●
 
 // 小中大護身符
