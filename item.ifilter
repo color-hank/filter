@@ -246,24 +246,24 @@ ItemDisplay[FILTERLVL=1 wax NMAG !RW SOCK=5]: %NAME%【末日】{%ORANGE%末日:
 // 武器-長斧
 ItemDisplay[7s8 ETH NMAG ED>10 SOCK=0]: %NAME%%DARK_GREEN%(11%ED↑)%GRAY%【打5孔】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //銳利之斧(無) - 打5孔
 ItemDisplay[7s8 ETH NMAG !SUP SOCK=0]: %NAME%【拼4-5孔】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%無限: 30＋23＋30＋24%NL%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //銳利之斧(無) - 拼打孔
-ItemDisplay[scy ETH NMAG !RW SOCK=4]: %NAME%【無限】{%ORANGE%無限: 30＋23＋30＋24%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //鐮刀(無)4 - 無限
+ItemDisplay[FILTERLVL=1 scy ETH NMAG !RW SOCK=4]: %NAME%【無限】{%ORANGE%無限: 30＋23＋30＋24%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //鐮刀(無)4 - 無限
 ItemDisplay[(7s8 OR 7pa OR 7h7 OR 7wc) NMAG !RW SOCK=4]: %NAME%【眼光│無限】{%ORANGE%無限: 30＋23＋30＋24%NL%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //銳利之斧、神秘之斧、巨長斧、鮫尾巨斧4 - 眼光/無限/驕傲
 ItemDisplay[(7s8 OR 7pa OR 7h7 OR 7wc) NMAG !RW SOCK=5]: %NAME%【遵從│末日】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //銳利之斧、神秘之斧、巨長斧、鮫尾巨斧5 - 遵從/末日
-ItemDisplay[(7h7 OR 7wc) NMAG !RW SOCK=6]: %NAME%【寂靜】{%ORANGE%寂靜: 14＋2＋15＋24＋3＋26%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //巨長斧、鮫尾巨斧6 - 寂靜
+ItemDisplay[FILTERLVL=1  (7h7 OR 7wc) NMAG !RW SOCK=6]: %NAME%【寂靜】{%ORANGE%寂靜: 14＋2＋15＋24＋3＋26%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //巨長斧、鮫尾巨斧6 - 寂靜
 
 // 武器-長槍
-ItemDisplay[7br ETH NMAG ED>10 SOCK=0]: %NAME%%DARK_GREEN%(11%ED↑)%GRAY%【打5孔】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //刺人槍(無) - 打5孔
-ItemDisplay[7br ETH NMAG !SUP SOCK=0]: %NAME%【打4-5孔】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%無限: 30＋23＋30＋24%NL%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //刺人槍(無) - 拼打孔
+ItemDisplay[FILTERLVL=1 7br ETH NMAG ED>10 SOCK=0]: %NAME%%DARK_GREEN%(11%ED↑)%GRAY%【打5孔】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //刺人槍(無) - 打5孔
+ItemDisplay[FILTERLVL=1 7br ETH NMAG !SUP SOCK=0]: %NAME%【打4-5孔】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%無限: 30＋23＋30＋24%NL%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //刺人槍(無) - 拼打孔
 ItemDisplay[7p7 ETH NMAG SOCK=0]: %NAME%【打6孔】{%ORANGE%死亡呼吸: 26＋15＋1＋2＋33＋5%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //戰槍(無) - 打6孔
-ItemDisplay[7br ETH NMAG !RW SOCK=4]: %NAME%【無限】{%ORANGE%無限: 30＋23＋30＋24%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //刺人槍(無)4 - 無限
+ItemDisplay[FILTERLVL=1  7br ETH NMAG !RW SOCK=4]: %NAME%【無限】{%ORANGE%無限: 30＋23＋30＋24%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //刺人槍(無)4 - 無限
 ItemDisplay[7p7 NMAG !RW SOCK=6]: %NAME%【死亡呼吸】{%ORANGE%死亡呼吸: 26＋15＋1＋2＋33＋5%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //戰槍6 - 死亡呼吸
-ItemDisplay[(7tr OR 7br OR 7st) NMAG !RW SOCK=4]: %NAME%【眼光│無限】{%ORANGE%無限: 30＋23＋30＋24%NL%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //冥河之槍、刺人槍、鬼魂之矛4 - 眼光/無限/驕傲
-ItemDisplay[(7br OR 7st) NMAG !RW SOCK=5]: %NAME%【遵從│末日】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //刺人槍、鬼魂之矛5 - 遵從/末日
-ItemDisplay[7st NMAG !RW SOCK=6]: %NAME%【寂靜】{%ORANGE%寂靜: 14＋2＋15＋24＋3＋26%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //鬼魂之矛6 - 寂靜
+ItemDisplay[FILTERLVL=1 (7tr OR 7br OR 7st) NMAG !RW SOCK=4]: %NAME%【眼光│無限】{%ORANGE%無限: 30＋23＋30＋24%NL%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //冥河之槍、刺人槍、鬼魂之矛4 - 眼光/無限/驕傲
+ItemDisplay[FILTERLVL=1 (7br OR 7st) NMAG !RW SOCK=5]: %NAME%【遵從│末日】{%ORANGE%末日: 15＋27＋22＋28＋32%NL%遵從: 15＋18＋10＋5＋19%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //刺人槍、鬼魂之矛5 - 遵從/末日
+ItemDisplay[FILTERLVL=1 7st NMAG !RW SOCK=6]: %NAME%【寂靜】{%ORANGE%寂靜: 14＋2＋15＋24＋3＋26%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //鬼魂之矛6 - 寂靜
 
 // 武器-棍棒
 ItemDisplay[7gm ETH NMAG !RW SOCK=0]: %NAME%【打6孔】{%ORANGE%死亡呼吸: 26＋15＋1＋2＋33＋5%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //雷鎚(無) - 死亡呼吸
-ItemDisplay[fla NMAG !RW SOCK=4]: %NAME%【橡樹之心】{%ORANGE%橡樹之心: 18＋26＋21＋10%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //連枷4 - 橡樹之心
+ItemDisplay[FILTERLVL=1 fla NMAG !RW SOCK=4]: %NAME%【橡樹之心】{%ORANGE%橡樹之心: 18＋26＋21＋10%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //連枷4 - 橡樹之心
 ItemDisplay[7gm ETH NMAG !RW SOCK=6]: %NAME%【死亡呼吸】{%ORANGE%死亡呼吸: 26＋15＋1＋2＋33＋5%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //雷鎚(無)6 - 死亡呼吸
 
 // 武器-弓
@@ -280,12 +280,12 @@ ItemDisplay[FILTERLVL=1 CL1 !ETH NMAG !RW SK249=3 (SOCK=0 OR SOCK=3) ILVL>25]: %
 ItemDisplay[FILTERLVL=1 CL1 !ETH NMAG !RW SK247=3 (SOCK=0 OR SOCK=3) ILVL>25]: %NAME%%RED%【+3召喚灰熊】%WHITE%{%ORANGE%需要搭配其他召喚技能}
 
 // 實際上用不到 //
-ItemDisplay[CL1 !ETH TABSK42=3 SK250=3]: %NAME%%RED%【+3自然元素│+3暴風】
-ItemDisplay[CL1 !ETH TABSK42=3 SK245=3]: %NAME%%RED%【+3自然元素│+3龍捲風】
-ItemDisplay[CL1 !ETH TABSK42=3 SK244=3]: %NAME%%RED%【+3自然元素│+3火山】
-ItemDisplay[CL1 !ETH TABSK42=3 SK229=3]: %NAME%%RED%【+3自然元素│+3熔漿巨岩】
-ItemDisplay[CL1 !ETH TABSK42=3 SK249=3]: %NAME%%RED%【+3自然元素│+3毀天滅地】
-ItemDisplay[CL1 !ETH TABSK40=3 SK247=3]: %NAME%%RED%【+3野性召喚│+3召喚灰熊】
+ItemDisplay[FILTERLVL=1 CL1 !ETH TABSK42=3 SK250=3]: %NAME%%RED%【+3自然元素│+3暴風】
+ItemDisplay[FILTERLVL=1 CL1 !ETH TABSK42=3 SK245=3]: %NAME%%RED%【+3自然元素│+3龍捲風】
+ItemDisplay[FILTERLVL=1 CL1 !ETH TABSK42=3 SK244=3]: %NAME%%RED%【+3自然元素│+3火山】
+ItemDisplay[FILTERLVL=1 CL1 !ETH TABSK42=3 SK229=3]: %NAME%%RED%【+3自然元素│+3熔漿巨岩】
+ItemDisplay[FILTERLVL=1 CL1 !ETH TABSK42=3 SK249=3]: %NAME%%RED%【+3自然元素│+3毀天滅地】
+ItemDisplay[FILTERLVL=1 CL1 !ETH TABSK40=3 SK247=3]: %NAME%%RED%【+3野性召喚│+3召喚灰熊】
 // 實際上用不到 //
 
 // 野蠻人
@@ -294,8 +294,8 @@ ItemDisplay[CL2 !ETH NMAG !RW SK154=3 (SOCK=0 OR SOCK=3) ILVL>25]: %NAME%%RED%�
 ItemDisplay[WEAPON !RW TABSK34>2]: %RED%<<<%NAME%【+3戰嚎武器】>>>{%ORANGE%三吼武器，非實戰用}
 
 // 實際上用不到 //
-ItemDisplay[CL2 TABSK34=3 SK149=3]: %NAME%%RED%【+3戰嚎│+3戰鬥體制】
-ItemDisplay[CL2 !ETH TABSK34=3 SK154=3]: %NAME%%RED%【+3戰嚎│+3戰鬥狂嗥】
+ItemDisplay[FILTERLVL=1 CL2 TABSK34=3 SK149=3]: %NAME%%RED%【+3戰嚎│+3戰鬥體制】
+ItemDisplay[FILTERLVL=1 CL2 !ETH TABSK34=3 SK154=3]: %NAME%%RED%【+3戰嚎│+3戰鬥狂嗥】
 // 實際上用不到 //
 
 // 聖騎士
@@ -352,13 +352,13 @@ ItemDisplay[(cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs) NMAG !RW SK58=3 SOCK=0]: %N
 ItemDisplay[(cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws) NMAG !RW SK58=3 SOCK=4]: %NAME%%RED%【+3能量護盾】{%ORANGE%記憶: 17＋16＋12＋5%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%}
 
 // 實際上用不到 //
-ItemDisplay[CL6 TABSK8=3 SK56=3]:%NAME%%RED%【+3火焰│+3隕石】
-ItemDisplay[CL6 TABSK8=3 SK62=3]:%NAME%%RED%【+3火焰│+3九頭火蛇】
-ItemDisplay[CL6 TABSK10=3 SK59=3]:%NAME%%RED%【+3冰冷│+3暴風雪】
-ItemDisplay[CL6 TABSK10=3 SK64=3]:%NAME%%RED%【+3冰冷│+3冰封球】
-ItemDisplay[CL6 TABSK9=3 SK48=3]:%NAME%%RED%【+3閃電│+3閃電新星】
-ItemDisplay[CL6 TABSK9=3 SK49=3]:%NAME%%RED%【+3閃電│+3雷霆浪湧】
-ItemDisplay[CL6 TABSK9=3 SK54=3]:%NAME%%RED%【+3閃電│+3連鎖閃電】
+ItemDisplay[FILTERLVL=1 CL6 TABSK8=3 SK56=3]:%NAME%%RED%【+3火焰│+3隕石】
+ItemDisplay[FILTERLVL=1 CL6 TABSK8=3 SK62=3]:%NAME%%RED%【+3火焰│+3九頭火蛇】
+ItemDisplay[FILTERLVL=1 CL6 TABSK10=3 SK59=3]:%NAME%%RED%【+3冰冷│+3暴風雪】
+ItemDisplay[FILTERLVL=1 CL6 TABSK10=3 SK64=3]:%NAME%%RED%【+3冰冷│+3冰封球】
+ItemDisplay[FILTERLVL=1 CL6 TABSK9=3 SK48=3]:%NAME%%RED%【+3閃電│+3閃電新星】
+ItemDisplay[FILTERLVL=1 CL6 TABSK9=3 SK49=3]:%NAME%%RED%【+3閃電│+3雷霆浪湧】
+ItemDisplay[FILTERLVL=1 CL6 TABSK9=3 SK54=3]:%NAME%%RED%【+3閃電│+3連鎖閃電】
 // 實際上用不到 //
 
 // 亞馬遜]:
@@ -418,9 +418,9 @@ ItemDisplay[CL7]: <亞>%NAME%%CONTINUE%
 // 戒指 項鍊 箭矢 十字箭
 ItemDisplay[FILTERLVL=1 rin SET]: [L%ILVL%]%NAME%【套裝】//戒指 
 ItemDisplay[amu SET]: [L%ILVL%]%NAME%【套裝】// 項鍊
-ItemDisplay[(rin OR amu) UNI]: [L%ILVL%]%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%【暗金】//戒指 項鍊
+ItemDisplay[(rin OR amu) UNI]: %BORDER(10,8)%%BGCOLOR(109)%[L%ILVL%]%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%【暗金】//戒指 項鍊
 ItemDisplay[amu MAG ILVL>89]: %ORANGE%[L%ILVL%]%BLUE%%NAME%【飾品】//項鍊 90LV +2技能
-ItemDisplay[amu RARE ILVL>89]: %ORANGE%[L%ILVL%]%YELLOW%%NAME%【飾品】//項鍊 90LV +2技能
+ItemDisplay[amu RARE ILVL>89]: %BORDER(12,8)%%BGCOLOR(109)%%ORANGE%[L%ILVL%]%YELLOW%%NAME%%MAPICON(54)%【飾品】//項鍊 90LV +2技能
 ItemDisplay[FILTERLVL=1 (!ID rin OR amu MAG)]: [L%ILVL%]%NAME%【飾品】//戒指 項鍊
 ItemDisplay[(amu OR rin)  RARE]: %BORDER(12,8)%%BGCOLOR(109)% [%ILVL%]%NAME%%MAPICON(54)% 
 ItemDisplay[aq2 OR cq2 OR aqv OR cqv]: %NAME%【箭袋】%CONTINUE% //箭矢 十字箭
@@ -453,6 +453,8 @@ ItemDisplay[UNI !ID uit]: (暴風之盾)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)
 //ItemDisplay[UNI !ID hgl !ETH]: (霜燃)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//霜燃
 ItemDisplay[UNI !ID uvg !ETH]: (卓古拉之握)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//卓古拉之握
 
+ItemDisplay[EQ4 !NMAG IAS>0 (TABSK0>1 OR TABSK1>1 OR TABSK2>1 OR TABSK50>1)]: %NAME%%GOLD%[+%STAT(93,0)%%IAS]%NOTIFY(ITEM)%%CONTINUE% // 測試亞馬手套
+
 //腳
 ItemDisplay[UNI !ID xvb !ETH]: (水上飄)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//水上飄
 ItemDisplay[UNI !ID xtb !ETH]: (戰爭旅者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//戰爭旅者
@@ -473,7 +475,7 @@ ItemDisplay[UNI !ID 6lw]: (風之力)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%N
 ItemDisplay[UNI !ID 7kr !ETH]: (裂肉者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//裂肉者
 
 ///槌子
-ItemDisplay[UNI !ID 7sp !ETH]: (惡魔爪牙)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//惡魔爪牙
+ItemDisplay[FILTERLVL=1 UNI !ID 7sp !ETH]: (惡魔爪牙)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//惡魔爪牙
 ItemDisplay[UNI !ID 7m7 !ETH]: (風之鎚)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//風之鎚
 
 //長斧
@@ -481,15 +483,16 @@ ItemDisplay[UNI !ID 7pa]: (盜墓者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%N
 ItemDisplay[UNI !ID 7s8]: (死神的喪鐘)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//死神的喪鐘
 
 //劍
-ItemDisplay[UNI !ID 9bs]: (擊頭者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//擊頭者
+ItemDisplay[FILTERLVL=1 UNI !ID 9bs]: (擊頭者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//擊頭者
 ItemDisplay[UNI !ID 7cr]: (光之軍刀/青色忿怒)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//光之軍刀 青色忿怒
-// ItemDisplay[UNI !ID 7gd]: (祖父)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//祖父
+ItemDisplay[UNI !ID 7gd]: (祖父)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//祖父
 
 //魔杖
 ItemDisplay[UNI !ID 7gw]: (死亡之網)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//死亡之網
 
 //亞馬標槍
 ItemDisplay[UNI !ID ama]: (泰坦的復仇)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//泰坦的復仇
+ItemDisplay[(am5 OR ama OR amf) IAS>0 (TABSK2>4 OR (TABSK2>2 AND CLSK0=2))]: %NAME%%GOLD%[+%STAT(93,0)%%IAS]%CONTINUE%  測試亞馬標槍
 
 //死靈盾
 ItemDisplay[UNI !ID nea]: (侏儒)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//侏儒
@@ -516,7 +519,7 @@ ItemDisplay[UNI !ID pa9 !ETH]: (撒卡蘭姆使者)%NAME%%NOTIFY(ITEM,HIGH)%%MAP
 //ItemDisplay[SET !ID uar]: (不朽之王的靈魂牢籠)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//不朽之王的靈魂牢籠
 ItemDisplay[SET !ID xmg]: (塔格奧之手)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//塔格奧之手
 ItemDisplay[SET !ID 7qr]: (娜塔亞的記號)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//娜塔亞的記號
-// ItemDisplay[SET !ID ucl]: (娜塔亞的影子)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//娜塔亞的影子
+ItemDisplay[SET !ID ucl]: (娜塔亞的影子)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//娜塔亞的影子
 // ItemDisplay[SET !ID xsk]: (塔-拉夏的赫拉迪克紋章)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//塔-拉夏的赫拉迪克紋章
 ItemDisplay[SET !ID uth]: (塔-拉夏的守護)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)% //塔-拉夏的守護
 //ItemDisplay[SET !ID 7wd]: (布爾凱索的部族守護)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//布爾凱索的部族守護
