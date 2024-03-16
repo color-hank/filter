@@ -17,7 +17,7 @@
 //%SOUND-4629% 安姊叫你去死
 
 FilterLevel[1]: Normal
-FilterLevel[2]: END-GAME
+FilterLevel[2]: MAP
 
 
 // 任務物品
