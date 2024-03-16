@@ -1,4 +1,4 @@
-// 2024/03/16 18:31
+// 2024/03/17 2:24
 // 版本: #21 Perlite(次石墨)
 // By: color
 // 過濾器說明 http://pathofdiablo.com/wiki/index.php/Loot_Filtration
@@ -161,28 +161,14 @@ ItemDisplay[r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10]:
 ItemDisplay[r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19]: [##%NAME%##]%CONTINUE%
 ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19) DIFF<2]: %NAME%%NOTIFY(ITEM,HIGH)%
 ItemDisplay[r20 OR r21 OR r22 OR r23 OR r24 OR r25]: %NL%%NL%%MAPICON(93,25)%%BORDER(8,2)%[####%NAME%####]%NOTIFY(ITEM,HIGH)%%NL%%NL%%NL%
-//ItemDisplay[r26 OR r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %NL%%NL%%MAPICON(93,25)%%BORDER(11,2)%[%PURPLE%######%ORANGE%%NAME%%PURPLE%######%ORANGE%]%NL%%NL%%NL%%NOTIFY(ITEM,HIGH)%
-ItemDisplay[r26]: %MAPICON(93,25)%[%PURPLE%#########################%ORANGE%%NAME%%PURPLE%#########################%ORANGE%] %NOTIFY(ITEM,HIGH)%
-ItemDisplay[r27]: %MAPICON(93,25)%[%PURPLE%#########################%ORANGE%%NAME%%PURPLE%#########################%ORANGE%] %NOTIFY(ITEM,HIGH)%
-ItemDisplay[r28]: %MAPICON(93,25)%[%PURPLE%#########################%ORANGE%%NAME%%PURPLE%#########################%ORANGE%] %NOTIFY(ITEM,HIGH)%
-ItemDisplay[r29]: %MAPICON(93,25)%[%PURPLE%#########################%ORANGE%%NAME%%PURPLE%#########################%ORANGE%] %NOTIFY(ITEM,HIGH)%
-ItemDisplay[r30]: %MAPICON(93,25)%[%PURPLE%#########################%ORANGE%%NAME%%PURPLE%#########################%ORANGE%] %NOTIFY(ITEM,HIGH)%
-ItemDisplay[r31]: %MAPICON(93,25)%[%PURPLE%#########################%ORANGE%%NAME%%PURPLE%#########################%ORANGE%] %NOTIFY(ITEM,HIGH)%
-ItemDisplay[r32]: %MAPICON(93,25)%[%PURPLE%#########################%ORANGE%%NAME%%PURPLE%#########################%ORANGE%] %NOTIFY(ITEM,HIGH)%
-ItemDisplay[r33]: %MAPICON(93,25)%[%PURPLE%#########################%ORANGE%%NAME%%PURPLE%#########################%ORANGE%] %NOTIFY(ITEM,HIGH)%
-
- 
-
-
-ItemDisplay[r25]: {%ORANGE%2021/04/07 - 0.25HR}
-ItemDisplay[r26]: {%ORANGE%2021/04/07 - 0.5HR}
-ItemDisplay[r27]: {%ORANGE%2021/04/07 - 0.75HR}
-ItemDisplay[r28]: {%ORANGE%2021/04/07 - 1.5HR}
-ItemDisplay[r29]: {%ORANGE%2021/04/07 - 1HR}
-ItemDisplay[r30]: {%ORANGE%2021/04/07 - 2HR}
-ItemDisplay[r31]: {%ORANGE%2021/04/07 - 3HR}
-ItemDisplay[r32]: {%ORANGE%2021/04/07 - 0.5HR}
-ItemDisplay[r33]: {%ORANGE%2021/04/07 - 0.75~1HR}
+ItemDisplay[r26]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 0.5HR}
+ItemDisplay[r27]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 0.75HR}
+ItemDisplay[r28]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 1.5HR}
+ItemDisplay[r29]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 1HR}
+ItemDisplay[r30]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 2HR}
+ItemDisplay[r31]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 3HR}
+ItemDisplay[r32]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 0.5HR}
+ItemDisplay[r33]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 0.75~1HR}
 
 
 // 裝備名字加註記
