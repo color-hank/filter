@@ -5,7 +5,7 @@
 // 過濾器代碼 https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
 //===================================
-
+//old
 //ItemDisplay[]: [L%ILVL%]%NAME%<$%PRICE%$>[%CODE%]%SOUND-418% // 查看代碼用
 //%SOUND-7% 燈
 //%SOUND-8% 督嚕
@@ -16,6 +16,17 @@
 //%SOUND-2594% 槌子燈一下
 //%SOUND-4629% 安姊叫你去死
 
+///new
+//%NOTIFYSOUND(7,HIGH)% 燈
+//%NOTIFYSOUND(8,HIGH)% 督嚕
+//%NOTIFYSOUND(15,HIGH)% 鐵鎚敲一下
+//%NOTIFYSOUND(16,HIGH)% 號角
+//%NOTIFYSOUND(19,HIGH)% 蠻子
+//%NOTIFYSOUND(34,HIGH)% 地域熔爐
+//%NOTIFYSOUND(418,HIGH)% 屋嚕嚕嚕
+//%NOTIFYSOUND(2594,HIGH)% 槌子燈一下
+//%NOTIFYSOUND(4629,HIGH)% 安姊叫你去死
+
 FilterLevel[1]: Normal
 FilterLevel[2]: MAP
 
@@ -24,9 +35,9 @@ FilterLevel[2]: MAP
 ItemDisplay[vip OR bks OR bkd OR j34 OR g34 OR bbb OR tr1 OR mss OR ass OR qey OR qhr OR qbr OR qf1 OR qf2 OR tr2 OR xyz OR hdm OR hfh OR hst OR msf OR ice OR g33]: %NAME%【任務】
 
 // 特殊物品
-ItemDisplay[pk1]: %WHITE%※※%ORANGE%%NAME% (女伯爵)%WHITE%※※%NOTIFY-ORANGE%%SOUND-8%{%WHITE%紅門掉落器官為%GOLD%《煉獄火炬 中護身符》%WHITE%跟%GOLD%《毀滅 小護身符》%WHITE%門票%NL%恐懼之鑰+憎恨之鑰+毀滅之鑰=隨機一種紅門，共三種} //恐懼之鑰
-ItemDisplay[pk2]: %WHITE%※※%ORANGE%%NAME% (召喚者)%WHITE%※※%NOTIFY-ORANGE%%SOUND-8%{%WHITE%紅門掉落器官為%GOLD%《煉獄火炬 中護身符》%WHITE%跟%GOLD%《毀滅 小護身符》%WHITE%門票%NL%恐懼之鑰+憎恨之鑰+毀滅之鑰=隨機一種紅門，共三種} //憎恨之鑰
-ItemDisplay[pk3]: %WHITE%※※%ORANGE%%NAME% (尼拉塞克)%WHITE%※※%NOTIFY-ORANGE%%SOUND-8%{%WHITE%紅門掉落器官為%GOLD%《煉獄火炬 中護身符》%WHITE%跟%GOLD%《毀滅 小護身符》%WHITE%門票%NL%恐懼之鑰+憎恨之鑰+毀滅之鑰=隨機一種紅門，共三種} //毀滅之鑰
+ItemDisplay[pk1]: %WHITE%※※%ORANGE%%NAME% (女伯爵)%WHITE%※※%NOTIFY(ITEM,HIGH)% %NOTIFYSOUND(8,HIGH)% {%WHITE%紅門掉落器官為%GOLD%《煉獄火炬 中護身符》%WHITE%跟%GOLD%《毀滅 小護身符》%WHITE%門票%NL%恐懼之鑰+憎恨之鑰+毀滅之鑰=隨機一種紅門，共三種} //恐懼之鑰
+ItemDisplay[pk2]: %WHITE%※※%ORANGE%%NAME% (召喚者)%WHITE%※※%NOTIFY(ITEM,HIGH)% %NOTIFYSOUND(8,HIGH)% {%WHITE%紅門掉落器官為%GOLD%《煉獄火炬 中護身符》%WHITE%跟%GOLD%《毀滅 小護身符》%WHITE%門票%NL%恐懼之鑰+憎恨之鑰+毀滅之鑰=隨機一種紅門，共三種} //憎恨之鑰
+ItemDisplay[pk3]: %WHITE%※※%ORANGE%%NAME% (尼拉塞克)%WHITE%※※%NOTIFY(ITEM,HIGH)% %NOTIFYSOUND(8,HIGH)% {%WHITE%紅門掉落器官為%GOLD%《煉獄火炬 中護身符》%WHITE%跟%GOLD%《毀滅 小護身符》%WHITE%門票%NL%恐懼之鑰+憎恨之鑰+毀滅之鑰=隨機一種紅門，共三種} //毀滅之鑰
 ItemDisplay[dhn OR bey OR mbr]: %WHITE%※※%DGREEN%%NAME%%WHITE%※※{%WHITE%暗黑破壞神之角＋巴爾之眼＋墨菲斯托之腦＋暗黑破壞神的靈魂石＋混沌之鑰＝地獄審判，掉落%GOLD%《毀滅 小護身符》%NL%%WHITE%暗黑破壞神之角＋巴爾之眼＋墨菲斯托之腦＝超級崔斯特瑞姆，掉落%GOLD%《煉獄火炬 中護身符》} //暗黑破壞神之角 巴爾之眼 墨菲斯托之腦
 ItemDisplay[toa]: %NAME% {使用後消耗並重置屬性與技能} //赦免徽章
 ItemDisplay[tes]: %NAME% (A1.A2){赦免徽章使用後可重置屬性與技能%NL%扭曲＋充盈＋燃燒＋潰爛毀滅精華＝赦免徽章(Token of Absolution)} //扭曲的苦痛精華
@@ -38,7 +49,7 @@ ItemDisplay[cm4]: %NAME% //Grand Charm (超大護身符?)
 ItemDisplay[leg]: %WHITE%※%NAME%%WHITE%※{%RED%維特之腳＋傳送之書＝秘密乳牛關卡(打贏對應難度巴爾後於蘿格營地內合成)} //維特之腳
 ItemDisplay[cx5]: ※%NAME%(ooc)※%NL%%NOTIFY(ITEM,HIGH)%%MAPICON(4,3)%{傳送之書、鑑定之書有腐化說明%NL%與裝備放入赫拉迪克方塊合成可腐化裝備} //腐化寶珠
 ItemDisplay[cx6]: %WHITE%※※%DGREEN%%NAME% (三王)%WHITE%※※{%WHITE%於哈洛加斯上方古代人的聖殿內開啟，死亡便無法再進入，打贏後掉落%GOLD%《毀滅 小護身符》%NL%%WHITE%暗黑破壞神之角＋巴爾之眼＋墨菲斯托之腦＋暗黑破壞神的靈魂石＋混沌之鑰＝地獄審判} //暗黑破壞神的靈魂石
-ItemDisplay[cx7]: %WHITE%※※%DGREEN%%NAME% (遺物)%WHITE%※※%NOTIFY(ITEM,HIGH)%%SOUND-9%{%WHITE%於哈洛加斯上方古代人的聖殿內開啟，死亡便無法再進入，打贏後掉落%GOLD%《毀滅 小護身符》%NL%%WHITE%暗黑破壞神之角＋巴爾之眼＋墨菲斯托之腦＋暗黑破壞神的靈魂石＋混沌之鑰＝地獄審判} //混沌之鑰
+ItemDisplay[cx7]: %WHITE%※※%DGREEN%%NAME% (遺物)%WHITE%※※%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(15,HIGH)%{%WHITE%於哈洛加斯上方古代人的聖殿內開啟，死亡便無法再進入，打贏後掉落%GOLD%《毀滅 小護身符》%NL%%WHITE%暗黑破壞神之角＋巴爾之眼＋墨菲斯托之腦＋暗黑破壞神的靈魂石＋混沌之鑰＝地獄審判} //混沌之鑰
 ItemDisplay[cx8]: %WHITE%※※%DGREEN%%NAME%%WHITE%※※ //附魔寶珠
 
 // 遺物地圖(Relic)
@@ -122,8 +133,8 @@ ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: // 碎裂
 
 
 // 珠寶
-ItemDisplay[jew UNI]: ●%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%【暗金】●
-ItemDisplay[jew]: ●[L%ILVL%]%NAME%●
+ItemDisplay[jew UNI]: %NL%●%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%【暗金】●%NL%%NL%
+ItemDisplay[jew]: %NL%●[L%ILVL%]%NAME%●%NL%%NL%
 
 // 小中大護身符
 ItemDisplay[cm1 UNI !ID]: (毀滅)《%NAME%【暗金】》
