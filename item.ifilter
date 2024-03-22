@@ -52,29 +52,66 @@ ItemDisplay[cx6]: %WHITE%※※%DGREEN%%NAME% (三王)%WHITE%※※{%WHITE%於�
 ItemDisplay[cx7]: %WHITE%※※%DGREEN%%NAME% (遺物)%WHITE%※※%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(15,HIGH)%{%WHITE%於哈洛加斯上方古代人的聖殿內開啟，死亡便無法再進入，打贏後掉落%GOLD%《毀滅 小護身符》%NL%%WHITE%暗黑破壞神之角＋巴爾之眼＋墨菲斯托之腦＋暗黑破壞神的靈魂石＋混沌之鑰＝地獄審判} //混沌之鑰
 ItemDisplay[cx8]: %WHITE%※※%DGREEN%%NAME%%WHITE%※※ //附魔寶珠
 
-// 遺物地圖(Relic)
-ItemDisplay[ma10 !ID]: 『%NAME% - T1』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //寒霜洞窟 (Icy Cavern)
-ItemDisplay[ma5 !ID]: 『%NAME% - T1』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma4 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //褻瀆教堂 (Desecrated Temple)
-ItemDisplay[ma8 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma2 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma6 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //焚燒森林 (Burnt Forest)
-ItemDisplay[ma3 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //遺棄之地 (Abandoned Precinct)
-//ItemDisplay[ma10 !ID]: <T0>『%NAME%』%GRAY%(未鑑定)%YELLOW% //悅心農場 (Pleasant Pasture) BUG無法顯示
 
-ItemDisplay[ma10]: %YELLOW%『%NAME%』 //寒霜洞窟 (Icy Cavern)
-ItemDisplay[ma5]:  %YELLOW%『%NAME%』 //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma4]:  %YELLOW%『%NAME%』 //褻瀆教堂 (Desecrated Temple)
-ItemDisplay[ma8]:  %YELLOW%『%NAME%』 //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9]:  %YELLOW%『%NAME%』 //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma2]:  %RED%『%NAME%』 //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma6]:  %RED%『%NAME%』 //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7]:  %RED%『%NAME%』 //焚燒森林 (Burnt Forest)
-//ItemDisplay[ma10]: 『%NAME%』//悅心農場 (Pleasant Pasture) BUG無法顯示
-ItemDisplay[ma3]: 『%NAME%』 //遺棄之地 (Abandoned Precinct)
-ItemDisplay[maz]: 毀滅 -『%NAME%』 //地獄審判
+// 遺物地圖(Relic)
+ItemDisplay[ma10 !ID]: ⛪  Relics  ⛪%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} <<MAP>> //寒霜洞窟 (Icy Cavern)  
+ItemDisplay[ma2 !ID]: ⛪  Relics  ⛪%NL%蜃景荒漠%NL%%RED%【T3-Lv88】{%RED%(Forgotten Desert)} <<MAP>> //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma3 !ID]: ⛪  Relics  ⛪%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】{%DGREEN%(Abandoned Precinct)} <<MAP>> //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma4 !ID]: ⛪  Relics  ⛪%NL%褻瀆教堂%NL%%GREEN%【T2-Lv87】{%GREEN%(Desecrated Temple)} <<MAP>> //褻瀆教堂 (Desecrated Temple)
+ItemDisplay[ma5 !ID]: ⛪  Relics  ⛪%NL%凜冬高原%NL%%WHITE%【T1-Lv86】{%WHITE%(Frigid Plateau)} <<MAP>> //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6 !ID]: ⛪  Relics  ⛪%NL%崩壞堡壘%NL%%RED%【T3-Lv88】{%RED%(Ruined Citadel)} <<MAP>> //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7 !ID]: ⛪  Relics  ⛪%NL%焚燒森林%NL%%RED%【T3-Lv88】{%RED%(Burnt Forest)} <<MAP>> //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8 !ID]: ⛪  Relics  ⛪%NL%發霉地穴%NL%%GREEN%【T2-Lv87】{%GREEN%(Musty Crypt)} <<MAP>> //發霉地穴 (Musty Crypt)
+ItemDisplay[ma9 !ID]: ⛪  Relics  ⛪%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】{%GREEN%(Dim Cellar)} <<MAP>> //昏暗地窖 (Dim Cellar)
+ItemDisplay[ma11 !ID]: ⛪  Relics  ⛪%NL%悅心農場%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)} <<MAP>>  //悅心農場 (Pleasant Pasture) 
+ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%惡意城堡%NL%%RED%【T3-Lv88】{%RED%(Baleful Alcazar)} <<MAP>>  //惡意城堡 (Baleful Alcazar)
+ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%腐敗居地%NL%%GREEN%【T2-Lv87】{%GREEN%(Decomposing Settlement)} <<MAP>>  //腐敗居地 (Decomposing Settlement)
+ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%新地圖%NL%%WHITE%【T?-Lv??】<<MAP>>
+
+
+//ItemDisplay[ma10 !ID]: 『%NAME% - T1』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //寒霜洞窟 (Icy Cavern)
+//ItemDisplay[ma5 !ID]: 『%NAME% - T1』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //凜冬高原 (Frigid Plateau)
+//ItemDisplay[ma4 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //褻瀆教堂 (Desecrated Temple)
+//ItemDisplay[ma8 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //發霉地穴 (Musty Crypt)
+//ItemDisplay[ma9 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //昏暗地窖 (Dim Cellar)
+//ItemDisplay[ma2 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //蜃景荒漠 (Forgotten Desert)
+//ItemDisplay[ma6 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //崩壞堡壘 (Ruined Citadel)
+//ItemDisplay[ma7 !ID]: 『%NAME% - T3』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //焚燒森林 (Burnt Forest)
+//ItemDisplay[ma3 !ID]: 『%NAME% - T2』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //遺棄之地 (Abandoned Precinct)
+//ItemDisplay[ma11 !ID]: %MAPICON(19,25)% <T0>『%NAME%』%GRAY%(未鑑定)%YELLOW%  //悅心農場 (Pleasant Pasture)
+
+
+ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%RED%*火:120,%YELLOW%*電:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //寒霜洞窟 (Icy Cavern)  
+ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**電:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //蜃景荒漠 (Forgotten Desert)
+ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】<<MAP>>{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%電:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%電:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地圖怪物基礎抗性:} //遺棄之地 (Abandoned Precinct)
+ItemDisplay[ma4]: (Desecrated Temple)%NL%褻瀆教堂%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*電:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%電:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //褻瀆教堂 (Desecrated Temple)
+ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****電:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%電:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //凜冬高原 (Frigid Plateau)
+ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%****冰:160,%YELLOW%***電:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%電:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //崩壞堡壘 (Ruined Citadel)
+ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****電:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%電:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地圖怪物基礎抗性:} //焚燒森林 (Burnt Forest)
+ItemDisplay[ma8]: (Musty Crypt)%NL%發黴地穴%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****電:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //發黴地穴 (Musty Crypt)
+ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*電:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%電:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地圖怪物基礎抗性:} //昏暗地窖 (Dim Cellar)
+ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%【T0-Lv86】<<MAP>>{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%電:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //悅心農場 (Pleasant Pasture) 
+ItemDisplay[ma12]: (Baleful Alcazar)%NL%惡意城堡%NL%%RED%【T3-Lv88】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地圖怪物基礎抗性:} //惡意城堡 (Baleful Alcazar)
+ItemDisplay[ma13]: (Decomposing Settlement)%NL%惡意城堡%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地圖怪物基礎抗性:} //腐敗居地 (Decomposing Settlement)
+ItemDisplay[MAP ID]: (new relics)%NL%新地圖%NL%%WHITE%【T?-Lv??】<<MAP>>
+ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck！%NL%你只有一次機會%NL%進入後無法開啟傳送門，死亡後無法返回}<<HIGH>>//地獄審判
+
+
+//ItemDisplay[ma10]: %YELLOW%『%YELLOW% %NAME% %YELLOW% 』 //寒霜洞窟 (Icy Cavern)
+//ItemDisplay[ma5]:  %YELLOW%%NAME% //凜冬高原 (Frigid Plateau)
+//ItemDisplay[ma4]:  %YELLOW%%NAME% //褻瀆教堂 (Desecrated Temple)
+//ItemDisplay[ma8]:  %YELLOW%%NAME% //發霉地穴 (Musty Crypt)
+//ItemDisplay[ma9]:  %YELLOW%%NAME% //昏暗地窖 (Dim Cellar)
+//ItemDisplay[ma2]:  %RED%%NAME% //蜃景荒漠 (Forgotten Desert)
+//ItemDisplay[ma6]:  %RED%%NAME% //崩壞堡壘 (Ruined Citadel)
+//ItemDisplay[ma7]:  %RED%%NAME% //焚燒森林 (Burnt Forest)
+//ItemDisplay[ma3]: %NAME% //遺棄之地 (Abandoned Precinct)
+//ItemDisplay[maz]: 毀滅 -『%NAME%』 //地獄審判
+//ItemDisplay[ma11]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %YELLOW%%NAME% //悅心農場 (Pleasant Pasture)
+//ItemDisplay[MAP]:  %YELLOW%%NAME%
+
+
+
 
 // 根據玩家等級隱藏金錢顯示
 ItemDisplay[CLVL>89 GOLD<6000]: //90等後不顯示6000元以下
@@ -141,12 +178,12 @@ ItemDisplay[cm1 UNI !ID]: (毀滅)《%NAME%【暗金】》
 ItemDisplay[cm2 UNI !ID]: (煉獄火炬)《%NAME%【暗金】》
 ItemDisplay[cm3 UNI !ID]: (基德的運氣)《%NAME%【暗金】》
 ItemDisplay[(cm1 OR cm2 OR cm3) UNI]: 《%NAME%【暗金】》
-ItemDisplay[cm3 ILVL>90]: 《《《%ORANGE%[L%ILVL%]%BLUE%%NAME%》》》{%YELLOW%可洗出技能＋45生命%NL%%ORANGE%完美任意寶石x3＋大型護身符＝隨機新屬性} // 91LV 技能+45命
+ItemDisplay[cm3 ILVL>90]: %PURPLE%《《《%ORANGE%[L%ILVL%]%PURPLE%%NAME% %PURPLE%》》》{%YELLOW%可洗出技能＋45生命%NL%%ORANGE%完美任意寶石x3＋大型護身符＝隨機新屬性} // 91LV 技能+45命
 ItemDisplay[cm1 !ID]: %PURPLE%《[L%ILVL%]%NAME%》
-ItemDisplay[cm1]: 《[L%ILVL%]%NAME%》
+ItemDisplay[cm1]: %PURPLE%《[L%ILVL%]%NAME%》
 ItemDisplay[FILTERLVL=1 cm2]: 《《[L%ILVL%]%NAME%》》
 ItemDisplay[cm3 !ID]: %PURPLE%《《《[L%ILVL%]%NAME%》》》
-ItemDisplay[cm3]: 《《《[L%ILVL%]%NAME%》》》
+ItemDisplay[cm3]: %PURPLE%《《《[L%ILVL%]%NAME%》》》
 
 ItemDisplay[cm2 UNI ID CLSK0>0]: %NAME% {%YELLOW%硬直恢復(FHR)：(11F)0／6／13／20／32／52／86／174／600(3F)%NL%施法速度(FCR)：(19F)0／7／14／22／32／48／68／99／152(13F)}
 ItemDisplay[cm2 UNI ID CLSK1>0]: %NAME% {%YELLOW%硬直恢復(FHR)：(15F)0／5／9／14／20／30／42／60／86／142／280(5F)%NL%施法速度<閃電>(FCR)：(19F)0／7／15／23／35／52／78／117／194(11F)%NL%施法速度(FCR)：(13F)0／9／20／37／63／105／200(7F)}
@@ -157,8 +194,8 @@ ItemDisplay[cm2 UNI ID CLSK5>0]: %NAME% {%YELLOW%硬直恢復<狼>(FHR)：(13F)0
 ItemDisplay[cm2 UNI ID CLSK6>0]: %NAME% {%YELLOW%硬直恢復(FHR)：(9F)0／7／15／27／48／86／200(3F)%NL%施法速度(FCR)：(16F)0／8／16／27／42／65／102／174(9F)}
 
 // 符文
-ItemDisplay[r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10]: [#%NAME%#]%CONTINUE%
-ItemDisplay[r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19]: [##%NAME%##]%CONTINUE%
+ItemDisplay[FILTERLVL=1 (r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07)]: [#%NAME%#]%CONTINUE%
+ItemDisplay[r08 OR r09 OR r10 ORr11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19]: [##%NAME%##]%CONTINUE%
 ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19) DIFF<2]: %NAME%%NOTIFY(ITEM,HIGH)%
 ItemDisplay[r20 OR r21 OR r22 OR r23 OR r24 OR r25]: %NL%%NL%%MAPICON(93,25)%%BORDER(8,2)%[####%NAME%####]%NOTIFY(ITEM,HIGH)%%NL%%NL%%NL%
 ItemDisplay[r26]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 0.5HR}
