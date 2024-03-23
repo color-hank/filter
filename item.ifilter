@@ -515,7 +515,7 @@ ItemDisplay[UNI !ID uvb]: (沙暴之旅)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)
 //腰帶
 ItemDisplay[UNI !ID zlb !ETH]: (長串之耳)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//長串之耳
 ItemDisplay[UNI !ID zvb !ETH]: (剃刀之尾)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//剃刀之尾
-ItemDisplay[UNI !ID ztb !ETH]: (雪之衝突)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//雪之衝突
+//ItemDisplay[UNI !ID ztb !ETH]: (雪之衝突)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//雪之衝突
 ItemDisplay[UNI !ID zhb !ETH]: (雷神之力)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//雷神之力
 ItemDisplay[UNI !ID ulc]: (蜘蛛之網)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//蜘蛛之網
 ItemDisplay[UNI !ID umc !ETH]: (維爾登戈的心結)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//維爾登戈的心結
@@ -556,7 +556,7 @@ ItemDisplay[UNI !ID baa !ETH]: (亞瑞特的面容)%NAME%%NOTIFY(ITEM,HIGH)%%MAP
 
 //法師杖
 ItemDisplay[UNI !ID oba]: (眼球)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//眼球
-ItemDisplay[UNI !ID obc]: (艾斯屈塔的脾氣)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//艾斯屈塔的脾氣
+//ItemDisplay[UNI !ID obc]: (艾斯屈塔的脾氣)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//艾斯屈塔的脾氣
 ItemDisplay[UNI !ID obf]: (死亡深度)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//死亡深度
 
 //小德頭
