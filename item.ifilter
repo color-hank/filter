@@ -157,7 +157,7 @@ ItemDisplay[(vps OR wms OR yps OR key) CLVL>9]:
 
 // 寶石
 ItemDisplay[gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz]: %NL%%BORDER(8,3)%%RED%★%WHITE%%NAME%%WHITE%%RED%★%NL%%NL% // 完美
-ItemDisplay[FILTERLVL=2 (gzv OR gly OR glb OR glg OR glr OR glw )]: %NL%%BORDER(7,3)%%RED%★%WHITE%%NAME%%WHITE%%RED%★%NL%%NL% // 無瑕疵													       
+ItemDisplay[FILTERLVL<=2 (gzv OR gly OR glb OR glg OR glr OR glw )]: %NL%%BORDER(7,3)%%RED%★%WHITE%%NAME%%WHITE%%RED%★%NL%%NL% // 無瑕疵													       
 ItemDisplay[skl]: %NL%%BORDER(7,3)%%RED%★%WHITE%%NAME%%WHITE%%RED%★%NL%%NL% // 無瑕疵骷髏													       
 ItemDisplay[gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku]: ★%NAME%★%CONTINUE% // 一般
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf]: ★%NAME%★%CONTINUE% // 缺陷
@@ -173,7 +173,7 @@ ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: // 碎裂
 
 // 珠寶
 ItemDisplay[jew UNI]: %NL%●%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%【暗金】●%NL%%NL%
-ItemDisplay[FILTERLVL=2 jew]: %NL%●[L%ILVL%]%NAME%●%NL%%NL%
+ItemDisplay[FILTERLVL<=2 jew]: %NL%●[L%ILVL%]%NAME%●%NL%%NL%
 
 // 小中大護身符
 ItemDisplay[cm1 UNI !ID]: (毀滅)《%NAME%【暗金】》
@@ -212,16 +212,16 @@ ItemDisplay[r33]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★�
 
 // 裝備名字加註記
 ItemDisplay[ETH]: ◎%NAME%%CONTINUE% // 無形
-ItemDisplay[FILTERLVL=2 (uui OR uea OR ula OR utu OR urs OR utp)]: %NAME%<輕>%CONTINUE% //灰暮壽衣、古龍皮、聖甲蟲殼皮甲、線羊毛皮甲、巨型鱗鎧胸甲、執政官鎧甲
-ItemDisplay[FILTERLVL=2 (ung OR uhn OR upl OR uld OR uth OR uar)]: %NAME%<中>%CONTINUE% //鑽石鎖子甲、骸骨鏈甲、炎魔皮板甲、海妖殼甲、漆甲、神聖盔甲
-ItemDisplay[FILTERLVL=2 (ucl OR ult OR uul)]: %NAME%<重>%CONTINUE% //甲殼鎧鱗甲、地獄鍛甲、陰影鎧甲
+ItemDisplay[FILTERLVL<=2 (uui OR uea OR ula OR utu OR urs OR utp)]: %NAME%<輕>%CONTINUE% //灰暮壽衣、古龍皮、聖甲蟲殼皮甲、線羊毛皮甲、巨型鱗鎧胸甲、執政官鎧甲
+ItemDisplay[FILTERLVL<=2 (ung OR uhn OR upl OR uld OR uth OR uar)]: %NAME%<中>%CONTINUE% //鑽石鎖子甲、骸骨鏈甲、炎魔皮板甲、海妖殼甲、漆甲、神聖盔甲
+ItemDisplay[FILTERLVL<=2 (ucl OR ult OR uul)]: %NAME%<重>%CONTINUE% //甲殼鎧鱗甲、地獄鍛甲、陰影鎧甲
 ItemDisplay[SOCK>0]: %NAME% (%SOCKETS%)%CONTINUE% // 有孔
 ItemDisplay[WEAPON !WP9 !WP10]: %NAME%{%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%}%CONTINUE%
 ItemDisplay[(WP9 OR WP10)]: %NAME%{%YELLOW%基礎速度: %WPNSPD%}%CONTINUE%
 
 // 頭冠
 ItemDisplay[EQ7 !ETH (MAG OR RARE) ILVL<90]: [L%ILVL%]%NAME%【頭冠】
-ItemDisplay[FILTERLVL=1 EQ7 !ETH MAG ILVL>89]: %ORANGE%[L%ILVL%]%BLUE%%NAME%【頭冠】
+ItemDisplay[FILTERLVL<=2 EQ7 !ETH MAG ILVL>89]: %ORANGE%[L%ILVL%]%BLUE%%NAME%【頭冠】
 ItemDisplay[EQ7 !ETH RARE ILVL>89]: %ORANGE%[L%ILVL%]%YELLOW%%NAME%【頭冠】
 
 // 盾牌
@@ -233,25 +233,25 @@ ItemDisplay[FILTERLVL=1 uit !ETH NMAG !RW SOCK=4]: %NAME%【精神│鳳凰】{%
 
 // 衣服
 // 菁英 11~15%ED衣服
-ItemDisplay[FILTERLVL=2 EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=11]: %NAME%%DARK_GREEN%(11%ED)%CONTINUE%//11%ED
-ItemDisplay[FILTERLVL=2 EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=12]: %NAME%%DARK_GREEN%(12%ED)%CONTINUE%//12%ED
-ItemDisplay[FILTERLVL=2 EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=13]: %NAME%%DARK_GREEN%(13%ED)%CONTINUE%//13%ED
-ItemDisplay[FILTERLVL=2 EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=14]: %NAME%%DARK_GREEN%(14%ED)%CONTINUE%//14%ED
+ItemDisplay[FILTERLVL<=2 EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=11]: %NAME%%DARK_GREEN%(11%ED)%CONTINUE%//11%ED
+ItemDisplay[FILTERLVL<=2 EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=12]: %NAME%%DARK_GREEN%(12%ED)%CONTINUE%//12%ED
+ItemDisplay[FILTERLVL<=2 EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=13]: %NAME%%DARK_GREEN%(13%ED)%CONTINUE%//13%ED
+ItemDisplay[FILTERLVL<=2 EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=14]: %NAME%%DARK_GREEN%(14%ED)%CONTINUE%//14%ED
 ItemDisplay[EQ2 ELT NMAG !RW !SOCK=1 !SOCK=2 ED=15]: %NAME%%DARK_GREEN%(15%ED)%CONTINUE%//15%ED
 
 ItemDisplay[EQ2 ELT ETH DEF>749 NMAG !RW SOCK=0]: %NAME%%DARK_GREEN%(750防↑)%GRAY%【打孔】 //無形高防
 ItemDisplay[EQ2 ELT NMAG !RW SOCK=0 ED>10]: %NAME%%WHITE%【菁英】//11~15%ED 白衣服
-ItemDisplay[FILTERLVL=2 EQ2 ELT NMAG !RW DEF<550 (SOCK=3 OR SOCK=4)]: %NAME%%GRAY%【菁英】//3~4S白衣服
+ItemDisplay[FILTERLVL<=2 EQ2 ELT NMAG !RW DEF<550 (SOCK=3 OR SOCK=4)]: %NAME%%GRAY%【菁英】//3~4S白衣服
 ItemDisplay[FILTERLVL=1 xtp DEF>259 !ETH NMAG !RW SOCK=0]: %NAME%%DARK_GREEN%(260防↑)%WHITE%【打3孔】{%ORANGE%謎團: 31＋6＋30} //260防以上法師鎧甲
 
 ItemDisplay[xtp DEF>259 !ETH NMAG !RW SOCK=3]: %NAME%%DARK_GREEN%(260防↑)%GRAY%【謎團】{%ORANGE%謎團: 31＋6＋30} //260防以上法師鎧甲3 - 謎團
 
-ItemDisplay[FILTERLVL=2 (uui OR uea OR ula OR utu OR urs OR utp) !ETH NMAG !RW SOCK=3]: %NAME%【謎團】{%ORANGE%謎團: 31＋6＋30}//輕甲3 - 謎團
-ItemDisplay[FILTERLVL=2 utp !ETH NMAG !RW SOCK=4]: %NAME%【剛毅│榮耀之鏈】{%ORANGE%榮耀之鍊: 14＋22＋30＋24%NL%剛毅: 1＋12＋14＋28} //執政官鎧甲4 - 剛毅/榮耀之鏈
-ItemDisplay[FILTERLVL=2 EQ2 DEF>749 NMAG !RW SOCK=3]: %NAME%%DARK_GREEN%(750防↑)%GRAY%【強制】{%ORANGE%強制: 13＋22＋10} //550防以上3 - 強制
-ItemDisplay[FILTERLVL=2 EQ2 DEF>749 NMAG !RW SOCK=4]: %NAME%%DARK_GREEN%(750防↑)%GRAY%【石塊│剛毅】{%ORANGE%剛毅: 1＋12＋14＋28%NL%石塊: 13＋22＋21＋17} //750防以上4 - 石塊/剛毅
-ItemDisplay[FILTERLVL=2 EQ2 !ETH DEF>549 NMAG !RW SOCK=3]: %NAME%%DARK_GREEN%(550防↑)%GRAY%【強制】{%ORANGE%強制: 13＋22＋10} //550防以上3 - 強制
-ItemDisplay[FILTERLVL=2 EQ2 !ETH DEF>549 NMAG !RW SOCK=4]: %NAME%%DARK_GREEN%(550防↑)%GRAY%【石塊│剛毅│榮耀之鏈】{%ORANGE%榮耀之鍊: 14＋22＋30＋24%NL%剛毅: 1＋12＋14＋28%NL%石塊: 13＋22＋21＋17} //550防以上4 - 石塊/剛毅/榮耀之鏈
+ItemDisplay[FILTERLVL<=2 (uui OR uea OR ula OR utu OR urs OR utp) !ETH NMAG !RW SOCK=3]: %NAME%【謎團】{%ORANGE%謎團: 31＋6＋30}//輕甲3 - 謎團
+ItemDisplay[FILTERLVL<=2 utp !ETH NMAG !RW SOCK=4]: %NAME%【剛毅│榮耀之鏈】{%ORANGE%榮耀之鍊: 14＋22＋30＋24%NL%剛毅: 1＋12＋14＋28} //執政官鎧甲4 - 剛毅/榮耀之鏈
+ItemDisplay[FILTERLVL<=2 EQ2 DEF>749 NMAG !RW SOCK=3]: %NAME%%DARK_GREEN%(750防↑)%GRAY%【強制】{%ORANGE%強制: 13＋22＋10} //550防以上3 - 強制
+ItemDisplay[FILTERLVL<=2 EQ2 DEF>749 NMAG !RW SOCK=4]: %NAME%%DARK_GREEN%(750防↑)%GRAY%【石塊│剛毅】{%ORANGE%剛毅: 1＋12＋14＋28%NL%石塊: 13＋22＋21＋17} //750防以上4 - 石塊/剛毅
+ItemDisplay[FILTERLVL<=2 EQ2 !ETH DEF>549 NMAG !RW SOCK=3]: %NAME%%DARK_GREEN%(550防↑)%GRAY%【強制】{%ORANGE%強制: 13＋22＋10} //550防以上3 - 強制
+ItemDisplay[FILTERLVL<=2 EQ2 !ETH DEF>549 NMAG !RW SOCK=4]: %NAME%%DARK_GREEN%(550防↑)%GRAY%【石塊│剛毅│榮耀之鏈】{%ORANGE%榮耀之鍊: 14＋22＋30＋24%NL%剛毅: 1＋12＋14＋28%NL%石塊: 13＋22＋21＋17} //550防以上4 - 石塊/剛毅/榮耀之鏈
 
 // 武器-劍
 ItemDisplay[FILTERLVL=1 crs NMAG !RW !INF SOCK=3]: %NAME%【新月│執法者】{%ORANGE%執法者: 11＋20＋18%NL%新月: 13＋22＋3%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //水晶劍3 - 新月
