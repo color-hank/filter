@@ -197,7 +197,7 @@ ItemDisplay[cm2 UNI ID CLSK6>0]: %NAME% {%YELLOW%硬直恢復(FHR)：(9F)0／7�
 
 // 符文
 ItemDisplay[FILTERLVL=1 (r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07)]: [#%NAME%#]%CONTINUE%
-ItemDisplay[r08 OR r09 OR r10 ORr11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19]: [##%NAME%##]%CONTINUE%
+ItemDisplay[r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19]: [##%NAME%##]%CONTINUE%
 ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19) DIFF<2]: %NAME%%NOTIFY(ITEM,HIGH)%
 ItemDisplay[r20 OR r21 OR r22 OR r23 OR r24 OR r25]: %NL%%NL%%MAPICON(93,25)%%BORDER(8,2)%[####%NAME%####]%NOTIFY(ITEM,HIGH)%%NL%%NL%%NL%
 ItemDisplay[r26]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 0.5HR}
