@@ -5,18 +5,7 @@
 // 過濾器代碼 https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
 //===================================
-//old
-//ItemDisplay[]: [L%ILVL%]%NAME%<$%PRICE%$>[%CODE%]%SOUND-418% // 查看代碼用
-//%SOUND-7% 燈
-//%SOUND-8% 督嚕
-//%SOUND-16% 號角
-//%SOUND-19% 蠻子
-//%SOUND-34% 地域熔爐
-//%SOUND-418% 屋嚕嚕嚕
-//%SOUND-2594% 槌子燈一下
-//%SOUND-4629% 安姊叫你去死
-
-///new
+// 音效代碼 https://github.com/fabd/diablo2/blob/master/code/d2_113_data/Sounds.txt
 //%NOTIFYSOUND(7,HIGH)% 燈
 //%NOTIFYSOUND(8,HIGH)% 督嚕
 //%NOTIFYSOUND(15,HIGH)% 鐵鎚敲一下
@@ -27,10 +16,21 @@
 //%NOTIFYSOUND(2594,HIGH)% 槌子燈一下
 //%NOTIFYSOUND(4629,HIGH)% 安姊叫你去死
 
+//%BORDER(13,1)%%BGCOLOR(172)%%MAPICON(132,2)%  金框+黑底+小地圖顯示(顏色+圖示)
+//%BORDER(143,1)%%BGCOLOR(172)% 紫框+黑底
+//%BORDER(10,1)%%BGCOLOR(172)% 紅框+黑底
+//%BORDER(118,1)%%BGCOLOR(172)% 綠框+黑底
+//%BORDER(12,1)%%BGCOLOR(172)% 黃框+黑底
+//%BORDER(11,1)%%BGCOLOR(172)% 橘框+黑底
+//%BORDER(138,1)%%BGCOLOR(172)% 藍框+黑底
+
+
 FilterLevel[1]: Normal
 FilterLevel[2]: MAP
 FilterLevel[3]: STRICT(精英中心)
 
+//融合
+ItemDisplay[SYNTH]: %SPACE%%NL%%RED%【融合 Synthesized】%GOLD%%NAME% %PURPLE%*%ORANGE%*%GREEN%*%GOLD%*%YELLOW%*%PURPLE%*%NL%%NOTIFYSOUND(19,MEDIUM)%%NOTIFY(ITEM)%%BGCOLOR(15)%%BORDER(4,1)%%MAPICON(10)%
 
 // 任務物品
 ItemDisplay[vip OR bks OR bkd OR j34 OR g34 OR bbb OR tr1 OR mss OR ass OR qey OR qhr OR qbr OR qf1 OR qf2 OR tr2 OR xyz OR hdm OR hfh OR hst OR msf OR ice OR g33]: %NAME%【任務】
