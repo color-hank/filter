@@ -30,7 +30,7 @@ FilterLevel[2]: MAP
 FilterLevel[3]: STRICT(精英中心)
 
 //融合
-ItemDisplay[SYNTH]: %SPACE%%NL%%RED%【融合 Synthesized】%GOLD%%NAME% %PURPLE%*%ORANGE%*%GREEN%*%GOLD%*%YELLOW%*%PURPLE%*%NL%%NOTIFYSOUND(19,MEDIUM)%%NOTIFY(ITEM)%%BGCOLOR(15)%%BORDER(4,1)%%MAPICON(10)%
+ItemDisplay[SYNTH]: %BORDER(10,2)%%BGCOLOR(150)%%MAPICON(93,25)%%RED%【融合】%GOLD%%NAME%%PURPLE%★%ORANGE%★%GREEN%★%GOLD%★%YELLOW%★%PURPLE%★
 
 // 任務物品
 ItemDisplay[vip OR bks OR bkd OR j34 OR g34 OR bbb OR tr1 OR mss OR ass OR qey OR qhr OR qbr OR qf1 OR qf2 OR tr2 OR xyz OR hdm OR hfh OR hst OR msf OR ice OR g33]: %NAME%【任務】
