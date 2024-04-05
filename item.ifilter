@@ -157,7 +157,7 @@ ItemDisplay[(vps OR wms OR yps OR key) CLVL>9]:
 
 // 寶石
 ItemDisplay[gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz]: %NL%%BORDER(8,3)%%RED%★%WHITE%%NAME%%WHITE%%RED%★%NL%%NL% // 完美
-ItemDisplay[FILTERLVL<=2 (gzv OR gly OR glb OR glg OR glr OR glw )]: %NL%%BORDER(7,3)%%RED%★%WHITE%%NAME%%WHITE%%RED%★%NL%%NL% // 無瑕疵													       
+ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw )]: %NL%%BORDER(7,3)%%RED%★%WHITE%%NAME%%WHITE%%RED%★%NL%%NL% // 無瑕疵													       
 ItemDisplay[skl]: %NL%%BORDER(7,3)%%RED%★%WHITE%%NAME%%WHITE%%RED%★%NL%%NL% // 無瑕疵骷髏													       
 ItemDisplay[gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku]: ★%NAME%★%CONTINUE% // 一般
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf]: ★%NAME%★%CONTINUE% // 缺陷
