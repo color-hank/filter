@@ -462,13 +462,13 @@ ItemDisplay[(WEAPON OR ARMOR) NORM]: %NAME%【普通】%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) EXC]: %NAME%【進階】%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ELT]: %NAME%【菁英】%CONTINUE%
 
-ItemDisplay[CL1]: <德>%NAME%%CONTINUE%
-ItemDisplay[CL2]: <蠻>%NAME%%CONTINUE%
-ItemDisplay[CL3]: <聖>%NAME%%CONTINUE%
-ItemDisplay[CL4]: <死>%NAME%%CONTINUE%
-ItemDisplay[CL5]: <刺>%NAME%%CONTINUE%
-ItemDisplay[CL6]: <法>%NAME%%CONTINUE%
-ItemDisplay[CL7]: <亞>%NAME%%CONTINUE%
+//ItemDisplay[CL1]: <德>%NAME%%CONTINUE%
+//ItemDisplay[CL2]: <蠻>%NAME%%CONTINUE%
+//ItemDisplay[CL3]: <聖>%NAME%%CONTINUE%
+//ItemDisplay[CL4]: <死>%NAME%%CONTINUE%
+//ItemDisplay[CL5]: <刺>%NAME%%CONTINUE%
+//ItemDisplay[CL6]: <法>%NAME%%CONTINUE%
+//ItemDisplay[CL7]: <亞>%NAME%%CONTINUE%
 
 // 戒指 項鍊 箭矢 十字箭
 ItemDisplay[FILTERLVL=1 rin SET]: [L%ILVL%]%NAME%【套裝】//戒指 
