@@ -607,3 +607,7 @@ ItemDisplay[(EQ4 OR EQ5 OR EQ6 OR EQ7 OR CL1 OR CL2) ETH DIFF=2 RARE !ID CLVL>79
 
 ItemDisplay[box]: %TAN% %NAME%
 
+//Tiara Diadem Imbue Charsi
+ItemDisplay[NMAG !ETH (ci2 OR ci3) !RW ILVL>14 SOCK=0]: %NAME%%BGCOLOR(15)%%BORDER(4,1)%
+ItemDisplay[NMAG ETH (ci2 OR ci3) !RW ILVL>14 SOCK=0]:
+ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK>0]:
