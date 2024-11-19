@@ -440,20 +440,20 @@ ItemDisplay[CHSK83>0 !CL6 !UNI !SET !RW]: %NAME%%DARK_GREEN%【聚氣-褻瀆】
 ItemDisplay[CHSK53>0 !CL6 !UNI !SET !RW]: %NAME%%DARK_GREEN%【聚氣-傳送】
 
 // 過度
-ItemDisplay[FILTERLVL=1 crs NMAG !RW !INF !ETH SOCK=0 ILVL>25 ILVL<41 (CLVL<60 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //60等前顯示 0s水晶劍
-ItemDisplay[FILTERLVL=1 bsd NMAG !RW !INF !ETH SOCK=0 ILVL>25 ILVL<41 (CLVL<50 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //50等前顯示 0s闊劍
-ItemDisplay[FILTERLVL=1 bsd NMAG !RW !INF !ETH SOCK=4 ILVL>25 ILVL<41 (CLVL<50 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //50等前顯示 4s闊劍
-ItemDisplay[FILTERLVL=1 WP8 NMAG !RW !CL7 SOCK=4 (CLVL<60 OR DIFF<2)]: %NAME%【眼光-長斧】{%ORANGE%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%}  //60等前顯示 4s長斧
-ItemDisplay[FILTERLVL=1 WP7 NMAG !RW !CL7 SOCK=4 (CLVL<60 OR DIFF<2)]: %NAME%【眼光-長槍】{%ORANGE%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //60等前顯示 4s長槍
+ItemDisplay[crs NMAG !RW !INF !ETH SOCK=0 ILVL>25 ILVL<41 (CLVL<60 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //60等前顯示 0s水晶劍
+ItemDisplay[bsd NMAG !RW !INF !ETH SOCK=0 ILVL>25 ILVL<41 (CLVL<50 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //50等前顯示 0s闊劍
+ItemDisplay[bsd NMAG !RW !INF !ETH SOCK=4 ILVL>25 ILVL<41 (CLVL<50 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //50等前顯示 4s闊劍
+ItemDisplay[WP8 NMAG !RW !CL7 SOCK=4 (CLVL<60 OR DIFF<2)]: %NAME%【眼光-長斧】{%ORANGE%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%}  //60等前顯示 4s長斧
+ItemDisplay[WP7 NMAG !RW !CL7 SOCK=4 (CLVL<60 OR DIFF<2)]: %NAME%【眼光-長槍】{%ORANGE%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //60等前顯示 4s長槍
 
-ItemDisplay[FILTERLVL=1 (wsp OR 9ws) NMAG !RW !ETH SOCK=4]: %NAME%【神聖雷擊-單手傳送】{%ORANGE%神聖雷擊: 5＋8＋9＋7%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //巨戰權杖、神屬權杖
-ItemDisplay[FILTERLVL=1 sbw NMAG !RW SOCK=3 DIFF<2 CLVL>19]: %NAME%【邊緣-商店打折】{%ORANGE%邊緣: 3＋7＋11%NL%%YELLOW%基礎速度: %WPNSPD%} //短弓
+ItemDisplay[(wsp OR 9ws) NMAG !RW !ETH SOCK=4]: %NAME%【神聖雷擊-單手傳送】{%ORANGE%神聖雷擊: 5＋8＋9＋7%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //巨戰權杖、神屬權杖
+ItemDisplay[sbw NMAG !RW SOCK=3 DIFF<2 CLVL>19]: %NAME%【邊緣-商店打折】{%ORANGE%邊緣: 3＋7＋11%NL%%YELLOW%基礎速度: %WPNSPD%} //短弓
 
 // 缺錢
-ItemDisplay[FILTERLVL=1 EQ2 (NMAG OR MAG) !RW PRICE>34999]: $%PRICE%$ // 顯示35000盔甲賣錢
-ItemDisplay[FILTERLVL=1 WP5 (NMAG OR MAG) PRICE>34999]: $%PRICE%$ // 顯示35000飛刀賣錢
-ItemDisplay[FILTERLVL=1 (CL6 OR WP12) MAG !RW ID ILVL>50]: $%PRICE%$ // 顯示法師寶珠+死靈魔杖賣錢
-ItemDisplay[FILTERLVL=1 (CL6 OR WP12) MAG !RW !ID ILVL>50]: $$$$ // 顯示法師寶珠+死靈魔杖賣錢
+ItemDisplay[EQ2 (NMAG OR MAG) !RW PRICE>34999]: $%PRICE%$ // 顯示35000盔甲賣錢
+ItemDisplay[WP5 (NMAG OR MAG) PRICE>34999]: $%PRICE%$ // 顯示35000飛刀賣錢
+ItemDisplay[(CL6 OR WP12) MAG !RW ID ILVL>50]: $%PRICE%$ // 顯示法師寶珠+死靈魔杖賣錢
+ItemDisplay[(CL6 OR WP12) MAG !RW !ID ILVL>50]: $$$$ // 顯示法師寶珠+死靈魔杖賣錢
 
 // ===>>> 裝備 <<<===
 
@@ -471,14 +471,14 @@ ItemDisplay[(WEAPON OR ARMOR) ELT]: %NAME%【菁英】%CONTINUE%
 //ItemDisplay[CL7]: <亞>%NAME%%CONTINUE%
 
 // 戒指 項鍊 箭矢 十字箭
-ItemDisplay[FILTERLVL=1 rin SET]: [L%ILVL%]%NAME%【套裝】//戒指 
+ItemDisplay[rin SET]: [L%ILVL%]%NAME%【套裝】//戒指 
 ItemDisplay[amu SET]: [L%ILVL%]%NAME%【套裝】// 項鍊
 ItemDisplay[(rin OR amu) UNI]: %BORDER(10,8)%%BGCOLOR(109)%[L%ILVL%]%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%【暗金】//戒指 項鍊
 ItemDisplay[amu MAG ILVL>89]: %ORANGE%[L%ILVL%]%BLUE%%NAME%【飾品】//項鍊 90LV +2技能
 ItemDisplay[amu RARE ILVL>89]: %BORDER(12,8)%%BGCOLOR(109)%%ORANGE%[L%ILVL%]%YELLOW%%NAME%%MAPICON(54)%【飾品】//項鍊 90LV +2技能
-ItemDisplay[FILTERLVL=1 (!ID rin OR amu MAG)]: [L%ILVL%]%NAME%【飾品】//戒指 項鍊
+ItemDisplay[(!ID rin OR amu MAG)]: [L%ILVL%]%NAME%【飾品】//戒指 項鍊
 ItemDisplay[(amu OR rin)  RARE]: %BORDER(12,8)%%BGCOLOR(109)% [%ILVL%]%NAME%%MAPICON(54)% 
-ItemDisplay[FILTERLVL=1 aq2 OR cq2 OR aqv OR cqv]: %NAME%【箭袋】%CONTINUE% //箭矢 十字箭
+ItemDisplay[aq2 OR cq2 OR aqv OR cqv]: %NAME%【箭袋】%CONTINUE% //箭矢 十字箭
 
 // 暗金+套裝提示掉落
 //頭
@@ -530,7 +530,7 @@ ItemDisplay[UNI !ID 6lw]: (風之力)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%N
 ItemDisplay[UNI !ID 7kr !ETH]: (裂肉者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//裂肉者
 
 ///槌子
-ItemDisplay[FILTERLVL=1 UNI !ID 7sp !ETH]: (惡魔爪牙)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//惡魔爪牙
+ItemDisplay[UNI !ID 7sp !ETH]: (惡魔爪牙)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//惡魔爪牙
 ItemDisplay[UNI !ID 7m7 !ETH]: (風之鎚)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//風之鎚
 
 //長斧
@@ -538,7 +538,7 @@ ItemDisplay[UNI !ID 7pa]: (盜墓者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%N
 ItemDisplay[UNI !ID 7s8]: (死神的喪鐘)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//死神的喪鐘
 
 //劍
-ItemDisplay[FILTERLVL=1 UNI !ID 9bs]: (擊頭者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//擊頭者
+ItemDisplay[UNI !ID 9bs]: (擊頭者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//擊頭者
 ItemDisplay[UNI !ID 7cr]: (光之軍刀/青色忿怒)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//光之軍刀 青色忿怒
 ItemDisplay[UNI !ID 7gd]: (祖父)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//祖父
 
