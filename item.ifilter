@@ -54,20 +54,66 @@ ItemDisplay[cx7]: %WHITE%※※%DGREEN%%NAME% (遺物)%WHITE%※※%NOTIFYSOUND(
 ItemDisplay[cx8]: %WHITE%※※%DGREEN%%NAME%%WHITE%※※ //附魔寶珠
 
 
+
+
+
+//輿圖 遺物 relic
+ItemDisplay[ma12 RARE !ID]: %WHITE%⛪ %TAN%%NAME% T1 %WHITE%⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(22)% //Baleful Alcazar
+ItemDisplay[ma13 RARE !ID]: %WHITE%⛪ %TAN%腐化之地 遺物 T1 %WHITE%⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(18)%%BORDER(4,1)%%MAPICON(22)% //Decomposing Settlement
+
+ItemDisplay[ma10 RARE !ID]: %YELLOW%⛪⛪⛪ %TAN%%NAME% T2 %YELLOW%⛪⛪⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(43)% //Icy Cavern
+ItemDisplay[(ma9 OR ma4) RARE !ID]: %YELLOW%⛪⛪⛪ %TAN%%NAME% T2 %YELLOW%⛪⛪⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(18)%%BORDER(4,1)%%MAPICON(43)% //Dim Cellar + Desecrated Temple
+
+ItemDisplay[(ma5 OR ma8) RARE !ID]: %RED%⛪⛪⛪⛪⛪ %TAN%%NAME% T3 %RED%⛪⛪⛪⛪⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(23)% //Frigid Plateau + Musty Crypt
+ItemDisplay[(ma2 OR ma6 OR ma7) RARE !ID]: %RED%⛪⛪⛪⛪⛪ %TAN%%NAME% T3 %RED%⛪⛪⛪⛪⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(23)% //Forgotten Desert + Ruined Citadel + Burnt Forest
+
+
+ItemDisplay[ma12 RARE ID]: %WHITE%%NAME% %CORAL%T1 %WHITE%⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(22)% //Baleful Alcazar
+ItemDisplay[ma13 RARE ID]: %WHITE% 腐化之地 遺物 %CORAL%T1 %WHITE%⛪ %DGREEN% [L%ILVL%] %NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(18)%%BORDER(4,1)%%MAPICON(22)% //Decomposing Settlement
+
+ItemDisplay[ma10 RARE ID]: %YELLOW%%NAME% %CORAL%T2 %YELLOW%⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(43)% //Icy Cavern
+//ItemDisplay[(ma9 OR ma4) RARE ID]: %YELLOW%%NAME% %CORAL%T2 %YELLOW%⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(18)%%BORDER(4,1)%%MAPICON(43)% //Dim Cellar + Desecrated Temple
+
+ItemDisplay[(ma8 OR ma5) RARE ID]: %RED%%NAME% %CORAL%T3 %RED%⛪⛪⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(23)% //Frigid Plateau + Musty Crypt
+ItemDisplay[(ma2 OR ma6 OR ma7) RARE ID]: %RED%%NAME% %CORAL%T3 %RED%⛪⛪⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(23)% //Forgotten Desert + Ruined Citadel + Burnt Forest
+
+
+ItemDisplay[ma12 MAG !ID]: %WHITE%⛪ %BLUE%%NAME% T1 %WHITE%⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(22)% //Baleful Alcazar
+ItemDisplay[ma13 MAG !ID]: %WHITE%⛪ %BLUE%腐化之地 遺物 T1 %WHITE%⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(18)%%BORDER(4,1)%%MAPICON(22)% //Decomposing Settlement
+
+ItemDisplay[ma10 MAG !ID]: %YELLOW%⛪⛪⛪ %BLUE%%NAME% T2 %WHITE%⛪⛪⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(43)% //Icy Cavern
+ItemDisplay[(ma9 OR ma4) MAG !ID]: %YELLOW%⛪⛪⛪ %BLUE%%NAME% T2 %YELLOW%⛪⛪⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(18)%%BORDER(4,1)%%MAPICON(43)% //Dim Cellar + Desecrated Temple + Decomposing Settlement
+
+ItemDisplay[(ma5 OR ma8) MAG !ID]: %RED%⛪⛪⛪⛪⛪ %BLUE%%NAME% T3 %RED%⛪⛪⛪⛪⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(23)% //Frigid Plateau + Musty Crypt
+ItemDisplay[(ma2 OR ma6 OR ma7) MAG !ID]: %RED%⛪⛪⛪⛪⛪ %BLUE%%NAME% T3 %RED%⛪⛪⛪⛪⛪ %WHITE%[%RED%Unid%WHITE%]%NOTIFY(ITEM)%%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(23)% //Forgotten Desert + Ruined Citadel + Burnt Forest
+
+
+ItemDisplay[ma12 MAG ID]: %BLUE%%NAME% %CORAL%T1 %WHITE%⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(22)% //Baleful Alcazar
+ItemDisplay[ma13 MAG ID]: %BLUE%腐化之地 遺物 %CORAL%T1 %WHITE%⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(18)%%BORDER(4,1)%%MAPICON(22)% //Decomposing Settlement
+
+ItemDisplay[ma10 MAG ID]: %BLUE%%NAME% %CORAL%T2 %YELLOW%⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(43)% //Icy Cavern
+ItemDisplay[(ma9 OR ma4) MAG ID]: %BLUE%%NAME% %CORAL%T2 %YELLOW%⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(18)%%BORDER(4,1)%%MAPICON(43)% //Dim Cellar + Desecrated Temple
+
+ItemDisplay[(ma5 OR ma8) MAG ID]: %BLUE%%NAME% %CORAL%T3 %RED%⛪⛪⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(23)% //Frigid Plateau + Musty Crypt
+ItemDisplay[(ma2 OR ma6 OR ma7) MAG ID]: %BLUE%%NAME% %CORAL%T3 %RED%⛪⛪⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(23)% //Forgotten Desert + Ruined Citadel + Burnt Forest
+
+
+
+
 // 遺物地圖(Relic)
-ItemDisplay[ma10 !ID]: ⛪  Relics  ⛪%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} <<MAP>> //寒霜洞窟 (Icy Cavern)  
-ItemDisplay[ma2 !ID]: ⛪  Relics  ⛪%NL%蜃景荒漠%NL%%RED%【T3-Lv88】{%RED%(Forgotten Desert)} <<MAP>> //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3 !ID]: ⛪  Relics  ⛪%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】{%DGREEN%(Abandoned Precinct)} <<MAP>> //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4 !ID]: ⛪  Relics  ⛪%NL%褻瀆教堂%NL%%GREEN%【T2-Lv87】{%GREEN%(Desecrated Temple)} <<MAP>> //褻瀆教堂 (Desecrated Temple)
-ItemDisplay[ma5 !ID]: ⛪  Relics  ⛪%NL%凜冬高原%NL%%WHITE%【T1-Lv86】{%WHITE%(Frigid Plateau)} <<MAP>> //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6 !ID]: ⛪  Relics  ⛪%NL%崩壞堡壘%NL%%RED%【T3-Lv88】{%RED%(Ruined Citadel)} <<MAP>> //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7 !ID]: ⛪  Relics  ⛪%NL%焚燒森林%NL%%RED%【T3-Lv88】{%RED%(Burnt Forest)} <<MAP>> //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8 !ID]: ⛪  Relics  ⛪%NL%發霉地穴%NL%%GREEN%【T2-Lv87】{%GREEN%(Musty Crypt)} <<MAP>> //發霉地穴 (Musty Crypt)
-ItemDisplay[ma9 !ID]: ⛪  Relics  ⛪%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】{%GREEN%(Dim Cellar)} <<MAP>> //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11 !ID]: ⛪  Relics  ⛪%NL%悅心農場%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)} <<MAP>>  //悅心農場 (Pleasant Pasture) 
-ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%惡意城堡%NL%%RED%【T3-Lv88】{%RED%(Baleful Alcazar)} <<MAP>>  //惡意城堡 (Baleful Alcazar)
-ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%腐敗居地%NL%%GREEN%【T2-Lv87】{%GREEN%(Decomposing Settlement)} <<MAP>>  //腐敗居地 (Decomposing Settlement)
-ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%新地圖%NL%%WHITE%【T?-Lv??】<<MAP>>
+//ItemDisplay[ma10 !ID]: ⛪  Relics  ⛪%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】{%WHITE%(Icy Cavern)} <<MAP>> //寒霜洞窟 (Icy Cavern)  
+//ItemDisplay[ma2 !ID]: ⛪  Relics  ⛪%NL%蜃景荒漠%NL%%RED%【T3-Lv88】{%RED%(Forgotten Desert)} <<MAP>> //蜃景荒漠 (Forgotten Desert)
+//ItemDisplay[ma3 !ID]: ⛪  Relics  ⛪%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】{%DGREEN%(Abandoned Precinct)} <<MAP>> //遺棄之地 (Abandoned Precinct)
+//ItemDisplay[ma4 !ID]: ⛪  Relics  ⛪%NL%褻瀆教堂%NL%%GREEN%【T2-Lv87】{%GREEN%(Desecrated Temple)} <<MAP>> //褻瀆教堂 (Desecrated Temple)
+//ItemDisplay[ma5 !ID]: ⛪  Relics  ⛪%NL%凜冬高原%NL%%WHITE%【T1-Lv86】{%WHITE%(Frigid Plateau)} <<MAP>> //凜冬高原 (Frigid Plateau)
+//ItemDisplay[ma6 !ID]: ⛪  Relics  ⛪%NL%崩壞堡壘%NL%%RED%【T3-Lv88】{%RED%(Ruined Citadel)} <<MAP>> //崩壞堡壘 (Ruined Citadel)
+//ItemDisplay[ma7 !ID]: ⛪  Relics  ⛪%NL%焚燒森林%NL%%RED%【T3-Lv88】{%RED%(Burnt Forest)} <<MAP>> //焚燒森林 (Burnt Forest)
+//ItemDisplay[ma8 !ID]: ⛪  Relics  ⛪%NL%發霉地穴%NL%%GREEN%【T2-Lv87】{%GREEN%(Musty Crypt)} <<MAP>> //發霉地穴 (Musty Crypt)
+//ItemDisplay[ma9 !ID]: ⛪  Relics  ⛪%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】{%GREEN%(Dim Cellar)} <<MAP>> //昏暗地窖 (Dim Cellar)
+//ItemDisplay[ma11 !ID]: ⛪  Relics  ⛪%NL%悅心農場%NL%%DGREEN%【T0-Lv86】{%DGREEN%(Pleasant Pasture)} <<MAP>>  //悅心農場 (Pleasant Pasture) 
+//ItemDisplay[ma12 !ID]: ⛪  Relics  ⛪%NL%惡意城堡%NL%%RED%【T3-Lv88】{%RED%(Baleful Alcazar)} <<MAP>>  //惡意城堡 (Baleful Alcazar)
+//ItemDisplay[ma13 !ID]: ⛪  Relics  ⛪%NL%腐敗居地%NL%%GREEN%【T2-Lv87】{%GREEN%(Decomposing Settlement)} <<MAP>>  //腐敗居地 (Decomposing Settlement)
+//ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%新地圖%NL%%WHITE%【T?-Lv??】<<MAP>>
 
 
 //ItemDisplay[ma10 !ID]: 『%NAME% - T1』%GRAY%(未鑑定)%YELLOW%%NOTIFY(ITEM,HIGH)% //寒霜洞窟 (Icy Cavern)
@@ -82,20 +128,20 @@ ItemDisplay[MAP !ID]: ⛪  Relics  ⛪%NL%新地圖%NL%%WHITE%【T?-Lv??】<<MAP
 //ItemDisplay[ma11 !ID]: %MAPICON(19,25)% <T0>『%NAME%』%GRAY%(未鑑定)%YELLOW%  //悅心農場 (Pleasant Pasture)
 
 
-ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%RED%*火:120,%YELLOW%*電:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //寒霜洞窟 (Icy Cavern)  
-ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**電:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //蜃景荒漠 (Forgotten Desert)
-ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】<<MAP>>{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%電:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%電:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地圖怪物基礎抗性:} //遺棄之地 (Abandoned Precinct)
-ItemDisplay[ma4]: (Desecrated Temple)%NL%褻瀆教堂%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*電:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%電:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //褻瀆教堂 (Desecrated Temple)
-ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****電:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%電:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //凜冬高原 (Frigid Plateau)
-ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%****冰:160,%YELLOW%***電:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%電:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //崩壞堡壘 (Ruined Citadel)
-ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****電:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%電:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地圖怪物基礎抗性:} //焚燒森林 (Burnt Forest)
-ItemDisplay[ma8]: (Musty Crypt)%NL%發黴地穴%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****電:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //發黴地穴 (Musty Crypt)
-ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*電:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%電:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地圖怪物基礎抗性:} //昏暗地窖 (Dim Cellar)
-ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%【T0-Lv86】<<MAP>>{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%電:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //悅心農場 (Pleasant Pasture) 
-ItemDisplay[ma12]: (Baleful Alcazar)%NL%惡意城堡%NL%%RED%【T3-Lv88】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地圖怪物基礎抗性:} //惡意城堡 (Baleful Alcazar)
-ItemDisplay[ma13]: (Decomposing Settlement)%NL%惡意城堡%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地圖怪物基礎抗性:} //腐敗居地 (Decomposing Settlement)
-ItemDisplay[MAP ID]: (new relics)%NL%新地圖%NL%%WHITE%【T?-Lv??】<<MAP>>
-ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck！%NL%你只有一次機會%NL%進入後無法開啟傳送門，死亡後無法返回}<<HIGH>>//地獄審判
+//ItemDisplay[ma10]: (Icy Cavern)%NL%寒霜洞窟%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%RED%*火:120,%YELLOW%*電:100,%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:33,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //寒霜洞窟 (Icy Cavern)  
+//ItemDisplay[ma2]: (Forgotten Desert)%NL%蜃景荒漠%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%*冰:160,%RED%***火:130,%YELLOW%**電:100,%GOLD%*物理:100,%DGREEN%***毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //蜃景荒漠 (Forgotten Desert)
+//ItemDisplay[ma3]: (Abandoned Precinct)%NL%遺棄之地%NL%%DGREEN%【T?-Lv??】<<MAP>>{%NL%免疫:%BLUE%冰:,%RED%火:,%YELLOW%電:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%WHITE%高抗性:%BLUE%冰:,%RED%火:,%YELLOW%電:,%ORANGE%魔法:,%GOLD%物理:,%DGREEN%毒:%NL%%ORANGE%地圖怪物基礎抗性:} //遺棄之地 (Abandoned Precinct)
+//ItemDisplay[ma4]: (Desecrated Temple)%NL%褻瀆教堂%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%***冰:190,%RED%***火:140,%YELLOW%*電:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:66,%YELLOW%電:60,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //褻瀆教堂 (Desecrated Temple)
+//ItemDisplay[ma5]: (Frigid Plateau)%NL%凜冬高原%NL%%WHITE%【T1-Lv86】<<MAP>>{%NL%免疫:%BLUE%*冰:150,%RED%*火:140,%YELLOW%*****電:100,%DGREEN%**毒:140%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%電:66,%ORANGE%魔法:50,%GOLD%物理:75,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //凜冬高原 (Frigid Plateau)
+//ItemDisplay[ma6]: (Ruined Citadel)%NL%崩壞堡壘%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%****冰:160,%YELLOW%***電:120,%GOLD%*物理:100,%DGREEN%**毒:120%NL%%WHITE%高抗性:%BLUE%冰:80,%RED%火:66,%YELLOW%電:50,%ORANGE%魔法:70,%GOLD%物理:50,%DGREEN%毒:75%NL%%ORANGE%地圖怪物基礎抗性:} //崩壞堡壘 (Ruined Citadel)
+//ItemDisplay[ma7]: (Burnt Forest)%NL%焚燒森林%NL%%RED%【T3-Lv88】<<MAP>>{%NL%免疫:%BLUE%***冰:140,%RED%*火:145,%YELLOW%*****電:120,%ORANGE%**魔法:100,%DGREEN%**毒:145%NL%%WHITE%高抗性:%BLUE%冰:66,%RED%火:66,%YELLOW%電:66,%ORANGE%魔法:20,%GOLD%物理:80,%DGREEN%毒:50%NL%%ORANGE%地圖怪物基礎抗性:} //焚燒森林 (Burnt Forest)
+//ItemDisplay[ma8]: (Musty Crypt)%NL%發黴地穴%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%****冰:190,%RED%***火:120,%YELLOW%****電:120,%ORANGE%%GOLD%*物理:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:60,%YELLOW%電:33,%ORANGE%魔法:50,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //發黴地穴 (Musty Crypt)
+//ItemDisplay[ma9]: (Dim Cellar)%NL%昏暗地窖%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%免疫:%BLUE%**冰:150,%RED%**火:120,%YELLOW%*電:100,%DGREEN%*毒:120%NL%%WHITE%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%電:33,%ORANGE%魔法:0,%GOLD%物理:75,%DGREEN%毒:65%NL%%ORANGE%地圖怪物基礎抗性:} //昏暗地窖 (Dim Cellar)
+//ItemDisplay[ma11]: (Pleasant Pasture)%NL%悅心農場%NL%%DGREEN%【T0-Lv86】<<MAP>>{%NL%高抗性:%BLUE%冰:50,%RED%火:50,%YELLOW%電:50,%ORANGE%魔法:33,%GOLD%物理:50,%DGREEN%毒:33%NL%%ORANGE%地圖怪物基礎抗性:} //悅心農場 (Pleasant Pasture) 
+//ItemDisplay[ma12]: (Baleful Alcazar)%NL%惡意城堡%NL%%RED%【T3-Lv88】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地圖怪物基礎抗性:} //惡意城堡 (Baleful Alcazar)
+//ItemDisplay[ma13]: (Decomposing Settlement)%NL%惡意城堡%NL%%GREEN%【T2-Lv87】<<MAP>>{%NL%？？未知？？%NL%%ORANGE%地圖怪物基礎抗性:} //腐敗居地 (Decomposing Settlement)
+//ItemDisplay[MAP ID]: (new relics)%NL%新地圖%NL%%WHITE%【T?-Lv??】<<MAP>>
+//ItemDisplay[maz]: %GOLD%⚝⚝⚝⚝⚝⚝%NL%%NAME%%NL%%GOLD%Diablo Clone{%GOLD%Good Luck！%NL%你只有一次機會%NL%進入後無法開啟傳送門，死亡後無法返回}<<HIGH>>//地獄審判
 
 
 //ItemDisplay[ma10]: %YELLOW%『%YELLOW% %NAME% %YELLOW% 』 //寒霜洞窟 (Icy Cavern)
@@ -165,9 +211,9 @@ ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc]: ★%NAME%★%CONTINU
 ItemDisplay[gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku AND CLVL>40]:
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc AND CLVL>40]:
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf AND CLVL>40]:
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFF>0]: // 一般
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFF>0]: // 缺陷
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFF>0]: // 碎裂
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) DIFFICULTY>0]: // 一般
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) DIFFICULTY>0]: // 缺陷
+ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) DIFFICULTY>0]: // 碎裂
 
 
 
@@ -198,7 +244,7 @@ ItemDisplay[cm2 UNI ID CLSK6>0]: %NAME% {%YELLOW%硬直恢復(FHR)：(9F)0／7�
 // 符文
 ItemDisplay[FILTERLVL=1 (r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07)]: [#%NAME%#]%CONTINUE%
 ItemDisplay[FILTERLVL<=2 (r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19)]: [##%NAME%##]%CONTINUE%
-//ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19) DIFF<2]: %NAME%%NOTIFY(ITEM,HIGH)%
+//ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19) DIFFICULTY<2]: %NAME%%NOTIFY(ITEM,HIGH)%
 ItemDisplay[r20 OR r21 OR r22 OR r23 OR r24 OR r25]: %NL%%NL%%MAPICON(93,25)%%BORDER(8,2)%[####%NAME%####]%NOTIFY(ITEM,HIGH)%%NL%%NL%%NL%
 ItemDisplay[r26]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 0.5HR}
 ItemDisplay[r27]: %BORDER(7,3)%%BGCOLOR(50)%%NL%%NL%%MAPICON(93,25)%[%GOLD%★★★★★%GREEN%★★★★★%RED%★★★★★%PURPLE%★★★★★%TAN%★★★★★%ORANGE%%NAME%%TAN%★★★★★%PURPLE%★★★★★%RED%★★★★★%GREEN%★★★★★%GOLD%★★★★★%ORANGE%]%NL%%NL%%NL% %NOTIFY(ITEM,HIGH)% {%ORANGE%2021/04/07 - 0.75HR}
@@ -223,6 +269,12 @@ ItemDisplay[(WP9 OR WP10)]: %NAME%{%YELLOW%基礎速度: %WPNSPD%}%CONTINUE%
 ItemDisplay[EQ7 !ETH (MAG OR RARE) ILVL<90]: [L%ILVL%]%NAME%【頭冠】
 ItemDisplay[FILTERLVL<=2 EQ7 !ETH MAG ILVL>89]: %ORANGE%[L%ILVL%]%BLUE%%NAME%【頭冠】
 ItemDisplay[EQ7 !ETH RARE ILVL>89]: %ORANGE%[L%ILVL%]%YELLOW%%NAME%【頭冠】
+
+//Tiara Diadem Imbue Charsi
+ItemDisplay[NMAG !ETH (ci2 OR ci3) !RW ILVL>14 SOCK=0]: %NAME%%BGCOLOR(15)%%BORDER(4,1)%
+ItemDisplay[NMAG ETH (ci2 OR ci3) !RW ILVL>14 SOCK=0]:
+ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK>0]:
+
 
 // 盾牌
 ItemDisplay[ush !ETH NMAG !RW SOCK=3 ED>10]: %NAME%%DARK_GREEN%(11%ED↑)%WHITE%【聖堂│夢境】{%ORANGE%夢境: 16＋31＋21%NL%聖堂: 18＋18＋23} //洞穴巨魔巢穴骨盾3 - 聖堂/夢境
@@ -440,20 +492,20 @@ ItemDisplay[CHSK83>0 !CL6 !UNI !SET !RW]: %NAME%%DARK_GREEN%【聚氣-褻瀆】
 ItemDisplay[CHSK53>0 !CL6 !UNI !SET !RW]: %NAME%%DARK_GREEN%【聚氣-傳送】
 
 // 過度
-ItemDisplay[crs NMAG !RW !INF !ETH SOCK=0 ILVL>25 ILVL<41 (CLVL<60 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //60等前顯示 0s水晶劍
-ItemDisplay[bsd NMAG !RW !INF !ETH SOCK=0 ILVL>25 ILVL<41 (CLVL<50 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //50等前顯示 0s闊劍
-ItemDisplay[bsd NMAG !RW !INF !ETH SOCK=4 ILVL>25 ILVL<41 (CLVL<50 DIFF<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //50等前顯示 4s闊劍
-ItemDisplay[WP8 NMAG !RW !CL7 SOCK=4 (CLVL<60 OR DIFF<2)]: %NAME%【眼光-長斧】{%ORANGE%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%}  //60等前顯示 4s長斧
-ItemDisplay[WP7 NMAG !RW !CL7 SOCK=4 (CLVL<60 OR DIFF<2)]: %NAME%【眼光-長槍】{%ORANGE%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //60等前顯示 4s長槍
+ItemDisplay[FILTERLVL=1 crs NMAG !RW !INF !ETH SOCK=0 ILVL>25 ILVL<41 (CLVL<60 DIFFICULTY<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //60等前顯示 0s水晶劍
+ItemDisplay[FILTERLVL=1 bsd NMAG !RW !INF !ETH SOCK=0 ILVL>25 ILVL<41 (CLVL<50 DIFFICULTY<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //50等前顯示 0s闊劍
+ItemDisplay[FILTERLVL=1 bsd NMAG !RW !INF !ETH SOCK=4 ILVL>25 ILVL<41 (CLVL<50 DIFFICULTY<2)]: %NAME%【精神-劍】{%ORANGE%精神: 7＋10＋9＋11%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //50等前顯示 4s闊劍
+ItemDisplay[FILTERLVL=1 WP8 NMAG !RW !CL7 SOCK=4 (CLVL<60 OR DIFFICULTY<2)]: %NAME%【眼光-長斧】{%ORANGE%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%}  //60等前顯示 4s長斧
+ItemDisplay[FILTERLVL=1 WP7 NMAG !RW !CL7 SOCK=4 (CLVL<60 OR DIFFICULTY<2)]: %NAME%【眼光-長槍】{%ORANGE%眼光: 8＋3＋7＋12%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //60等前顯示 4s長槍
 
-ItemDisplay[(wsp OR 9ws) NMAG !RW !ETH SOCK=4]: %NAME%【神聖雷擊-單手傳送】{%ORANGE%神聖雷擊: 5＋8＋9＋7%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //巨戰權杖、神屬權杖
-ItemDisplay[sbw NMAG !RW SOCK=3 DIFF<2 CLVL>19]: %NAME%【邊緣-商店打折】{%ORANGE%邊緣: 3＋7＋11%NL%%YELLOW%基礎速度: %WPNSPD%} //短弓
+ItemDisplay[FILTERLVL=1 (wsp OR 9ws) NMAG !RW !ETH SOCK=4]: %NAME%【神聖雷擊-單手傳送】{%ORANGE%神聖雷擊: 5＋8＋9＋7%NL%%YELLOW%範圍: %RANGE%，基礎速度: %WPNSPD%} //巨戰權杖、神屬權杖
+ItemDisplay[FILTERLVL=1 sbw NMAG !RW SOCK=3 DIFFICULTY<2 CLVL>19]: %NAME%【邊緣-商店打折】{%ORANGE%邊緣: 3＋7＋11%NL%%YELLOW%基礎速度: %WPNSPD%} //短弓
 
 // 缺錢
-ItemDisplay[EQ2 (NMAG OR MAG) !RW PRICE>34999]: $%PRICE%$ // 顯示35000盔甲賣錢
-ItemDisplay[WP5 (NMAG OR MAG) PRICE>34999]: $%PRICE%$ // 顯示35000飛刀賣錢
-ItemDisplay[(CL6 OR WP12) MAG !RW ID ILVL>50]: $%PRICE%$ // 顯示法師寶珠+死靈魔杖賣錢
-ItemDisplay[(CL6 OR WP12) MAG !RW !ID ILVL>50]: $$$$ // 顯示法師寶珠+死靈魔杖賣錢
+ItemDisplay[FILTERLVL=1 EQ2 (NMAG OR MAG) !RW PRICE>34999]: $%PRICE%$ // 顯示35000盔甲賣錢
+ItemDisplay[FILTERLVL=1 WP5 (NMAG OR MAG) PRICE>34999]: $%PRICE%$ // 顯示35000飛刀賣錢
+ItemDisplay[FILTERLVL=1 (CL6 OR WP12) MAG !RW ID ILVL>50]: $%PRICE%$ // 顯示法師寶珠+死靈魔杖賣錢
+ItemDisplay[FILTERLVL=1 (CL6 OR WP12) MAG !RW !ID ILVL>50]: $$$$ // 顯示法師寶珠+死靈魔杖賣錢
 
 // ===>>> 裝備 <<<===
 
@@ -471,14 +523,14 @@ ItemDisplay[(WEAPON OR ARMOR) ELT]: %NAME%【菁英】%CONTINUE%
 //ItemDisplay[CL7]: <亞>%NAME%%CONTINUE%
 
 // 戒指 項鍊 箭矢 十字箭
-ItemDisplay[rin SET]: [L%ILVL%]%NAME%【套裝】//戒指 
+ItemDisplay[FILTERLVL=1 rin SET]: [L%ILVL%]%NAME%【套裝】//戒指 
 ItemDisplay[amu SET]: [L%ILVL%]%NAME%【套裝】// 項鍊
 ItemDisplay[(rin OR amu) UNI]: %BORDER(10,8)%%BGCOLOR(109)%[L%ILVL%]%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%【暗金】//戒指 項鍊
 ItemDisplay[amu MAG ILVL>89]: %ORANGE%[L%ILVL%]%BLUE%%NAME%【飾品】//項鍊 90LV +2技能
 ItemDisplay[amu RARE ILVL>89]: %BORDER(12,8)%%BGCOLOR(109)%%ORANGE%[L%ILVL%]%YELLOW%%NAME%%MAPICON(54)%【飾品】//項鍊 90LV +2技能
-ItemDisplay[(!ID rin OR amu MAG)]: [L%ILVL%]%NAME%【飾品】//戒指 項鍊
+ItemDisplay[FILTERLVL=1 (!ID rin OR amu MAG)]: [L%ILVL%]%NAME%【飾品】//戒指 項鍊
 ItemDisplay[(amu OR rin)  RARE]: %BORDER(12,8)%%BGCOLOR(109)% [%ILVL%]%NAME%%MAPICON(54)% 
-ItemDisplay[aq2 OR cq2 OR aqv OR cqv]: %NAME%【箭袋】%CONTINUE% //箭矢 十字箭
+ItemDisplay[FILTERLVL=1 aq2 OR cq2 OR aqv OR cqv]: %NAME%【箭袋】%CONTINUE% //箭矢 十字箭
 
 // 暗金+套裝提示掉落
 //頭
@@ -530,7 +582,7 @@ ItemDisplay[UNI !ID 6lw]: (風之力)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%N
 ItemDisplay[UNI !ID 7kr !ETH]: (裂肉者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//裂肉者
 
 ///槌子
-ItemDisplay[UNI !ID 7sp !ETH]: (惡魔爪牙)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//惡魔爪牙
+ItemDisplay[FILTERLVL=1 UNI !ID 7sp !ETH]: (惡魔爪牙)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//惡魔爪牙
 ItemDisplay[UNI !ID 7m7 !ETH]: (風之鎚)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//風之鎚
 
 //長斧
@@ -538,7 +590,7 @@ ItemDisplay[UNI !ID 7pa]: (盜墓者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%N
 ItemDisplay[UNI !ID 7s8]: (死神的喪鐘)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//死神的喪鐘
 
 //劍
-ItemDisplay[UNI !ID 9bs]: (擊頭者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//擊頭者
+ItemDisplay[FILTERLVL=1 UNI !ID 9bs]: (擊頭者)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//擊頭者
 ItemDisplay[UNI !ID 7cr]: (光之軍刀/青色忿怒)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//光之軍刀 青色忿怒
 ItemDisplay[UNI !ID 7gd]: (祖父)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//祖父
 
@@ -581,13 +633,13 @@ ItemDisplay[SET !ID uth]: (塔-拉夏的守護)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON
 ItemDisplay[SET !ID ulg]: (手掌的安置)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%NOTIFYSOUND(418,HIGH)%//手掌的安置
 // ItemDisplay[SET !ID xhm]: (吉永之臉)%NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%SOUND-418%//吉永之臉
 
-ItemDisplay[(WEAPON OR ARMOR OR aq2 OR cq2 OR aqv OR cqv) (UNI OR SET) DIFF<2 !ID]: %NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%// 套裝+暗金 其他難度
+ItemDisplay[(WEAPON OR ARMOR OR aq2 OR cq2 OR aqv OR cqv) (UNI OR SET) DIFFICULTY<2 !ID]: %NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%// 套裝+暗金 其他難度
 ItemDisplay[(rin OR amu) RARE !ID]: %NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%SOUND-15%// 戒指+項鍊 稀有
 ItemDisplay[(rin OR amu OR jew OR cm1 OR cm2 OR cm3) UNI !ID]: %NAME%%NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%SOUND-2594%// 戒指+項鍊+珠寶+護身符 暗金
 ItemDisplay[(crs OR bsd OR lsd) NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME% %WHITE%(打4洞) %WHITE%[%ILVL%]
 
 // 刪除垃圾
-ItemDisplay[(tsc OR isc) DIFF>0]: // 普通難度後不顯示傳送鑑定卷軸
+ItemDisplay[(tsc OR isc) DIFFICULTY>0]: // 普通難度後不顯示傳送鑑定卷軸
 ItemDisplay[NMAG INF !RW CLVL>5]: // 6等後刪除破碎等垃圾
 ItemDisplay[NMAG SOCK=1 CLVL>5]: // 6等後刪除白色1s裝備
 
@@ -602,12 +654,7 @@ ItemDisplay[(WEAPON OR ARMOR) !EQ7 NORM MAG CLVL>29]: // 30等後刪除頭冠外
 ItemDisplay[(WEAPON OR ARMOR) !EQ7 MAG CLVL>49]: // 50等後刪除頭冠以外所有藍裝
 ItemDisplay[EQ7 ETH !UNI !ID]: // 刪除無形頭冠
 
-ItemDisplay[(WEAPON OR EQ1 OR EQ2 OR EQ3 OR CL3 OR CL4 OR CL6 OR CL7) !CL5 !WP6 !amb !am5 !ama !amf DIFF=2 RARE !ID CLVL>79]: // 地獄難度80等後刪除標槍、爪子、女族長之弓以外武器、頭、衣服、盾牌金裝
-ItemDisplay[(EQ4 OR EQ5 OR EQ6 OR EQ7 OR CL1 OR CL2) ETH DIFF=2 RARE !ID CLVL>79]: // 地獄難度80等後刪除手套、鞋子、腰帶、頭冠金裝(無形)
+ItemDisplay[(WEAPON OR EQ1 OR EQ2 OR EQ3 OR CL3 OR CL4 OR CL6 OR CL7) !CL5 !WP6 !amb !am5 !ama !amf DIFFICULTY=2 RARE !ID CLVL>79]: // 地獄難度80等後刪除標槍、爪子、女族長之弓以外武器、頭、衣服、盾牌金裝
+ItemDisplay[(EQ4 OR EQ5 OR EQ6 OR EQ7 OR CL1 OR CL2) ETH DIFFICULTY=2 RARE !ID CLVL>79]: // 地獄難度80等後刪除手套、鞋子、腰帶、頭冠金裝(無形)
 
 ItemDisplay[box]: %TAN% %NAME%
-
-//Tiara Diadem Imbue Charsi
-ItemDisplay[NMAG !ETH (ci2 OR ci3) !RW ILVL>14 SOCK=0]: %NAME%%BGCOLOR(15)%%BORDER(4,1)%
-ItemDisplay[NMAG ETH (ci2 OR ci3) !RW ILVL>14 SOCK=0]:
-ItemDisplay[NMAG (ci2 OR ci3) !RW ILVL>14 SOCK>0]:
