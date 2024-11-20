@@ -97,7 +97,11 @@ ItemDisplay[(ma9 OR ma4) MAG ID]: %BLUE%%NAME% %CORAL%T2 %YELLOW%⛪⛪⛪ %DGRE
 ItemDisplay[(ma5 OR ma8) MAG ID]: %BLUE%%NAME% %CORAL%T3 %RED%⛪⛪⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(19)%%BORDER(4,1)%%MAPICON(23)% //Frigid Plateau + Musty Crypt
 ItemDisplay[(ma2 OR ma6 OR ma7) MAG ID]: %BLUE%%NAME% %CORAL%T3 %RED%⛪⛪⛪⛪⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(23)% //Forgotten Desert + Ruined Citadel + Burnt Forest
 
-
+//NEW
+//ItemDisplay[(maz) NMAG]:Infernal %RED%Trial %CONTINUE%
+ItemDisplay[(ma14) NMAG]:%GRAY%Abyssal Furnace %CORAL%T1 %WHITE%⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(22)%
+ItemDisplay[(ma14) MAG]:%BLUE%Abyssal Furnace %CORAL%T1 %WHITE%⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(22)%
+ItemDisplay[(ma14) RARE]:%YELLOW%Abyssal Furnace %CORAL%T1 %WHITE%⛪ %DGREEN% [L%ILVL%]%NOTIFYSOUND(3033,MEDIUM)%%BGCOLOR(41)%%BORDER(4,1)%%MAPICON(22)%
 
 
 // 遺物地圖(Relic)
