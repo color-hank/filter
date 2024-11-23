@@ -52,6 +52,7 @@ ItemDisplay[cx5]: ※%NAME%(ooc)※%NL%%NOTIFY(ITEM,HIGH)%%MAPICON(4,3)%{傳送�
 ItemDisplay[cx6]: %WHITE%※※%DGREEN%%NAME% (三王)%WHITE%※※{%WHITE%於哈洛加斯上方古代人的聖殿內開啟，死亡便無法再進入，打贏後掉落%GOLD%《毀滅 小護身符》%NL%%WHITE%暗黑破壞神之角＋巴爾之眼＋墨菲斯托之腦＋暗黑破壞神的靈魂石＋混沌之鑰＝地獄審判} //暗黑破壞神的靈魂石
 ItemDisplay[cx7]: %WHITE%※※%DGREEN%%NAME% (遺物)%WHITE%※※%NOTIFYSOUND(15,HIGH)%{%WHITE%於哈洛加斯上方古代人的聖殿內開啟，死亡便無法再進入，打贏後掉落%GOLD%《毀滅 小護身符》%NL%%WHITE%暗黑破壞神之角＋巴爾之眼＋墨菲斯托之腦＋暗黑破壞神的靈魂石＋混沌之鑰＝地獄審判} //混沌之鑰
 ItemDisplay[cx8]: %WHITE%※※%DGREEN%%NAME%%WHITE%※※ //附魔寶珠
+ItemDisplay[cx9]: %NL%%RED%⚛%ORANGE%⚛%YELLOW%⚛%GREEN%⚛%BLUE%⚛%GRAY%⚛%PURPLE%⚛ %RED%變化寶珠 %ORANGE%Orb of Alteration %PURPLE%⚛%GRAY%⚛%BLUE%⚛%GREEN%⚛%YELLOW%⚛%ORANGE%⚛%RED%⚛%NL%%NOTIFY(ITEM)%%BGCOLOR(138)%%BORDER(4,1)%%MAPICON(8)% //變化寶珠
 
 
 
